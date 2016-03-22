@@ -100,6 +100,47 @@ Download the binaries from <code>https://www.mongodb.org/downloads.</code>
  
 
 
+<h2>Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
+
+<strong> Steps ( For Linux )</strong> 
+
+
+  <code> wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code>
+
+  <code>tar -xvzf openssl-1.0.2a.tar.gz  </code>
+
+  cd openssl-1.0.2a 
+
+  <code> ./config --prefix=/usr/ </code>
+
+ <code> make </code>
+
+ <code>  sudo make install  </code>
+
+
+
+
+<strong> Steps ( For Mac Os X )</strong> 
+
+ <code> wget http://www.openssl.org/source/openssl-1.0.2a.tar.gz  </code>
+
+ <code> tar -xvzf openssl-1.0.2a.tar.gz</code>
+
+ cd openssl-1.0.2a
+
+ <code> ./Configure darwin64-x86_64-cc --prefix=/usr</code>
+
+ <code> make</code>
+
+ <code> sudo make install </code>
+
+ Verify the Installation
+
+Verify that you have successfully installed OpenSSL.
+
+openssl version -a
+
+
 
 <h1> on a Ubuntu Linux Server on Digital Ocean </h1>
 
