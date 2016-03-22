@@ -35,7 +35,19 @@ Using  >  <a href="https://github.com/Homebrew/homebrew/">homebrew:  </a>
 
 <code> $ port install nodejs </code>
 
+<h2>Install on Linux</h2>
+#
+Ubuntu, Mint
+#
+Example install:
+<code>sudo apt-get install python-software-properties python g++ make</code>
 
+<code>curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+sudo apt-get install -y nodejs </code>
+
+
+It installs current stable Node on the current stable Ubuntu. Quantal (12.10) users may need to install the software-properties-common package for the add-apt-repository command to work: sudo apt-get install software-properties-common
+There is a naming conflict with the node package (Amateur Packet Radio Node Program), and the nodejs binary has been renamed from node to nodejs. You'll need to symlink <code> /usr/bin/node to /usr/bin/nodejs </code> or you could uninstall the Amateur Packet Radio Node Program to avoid that conflict.
 
 
 Do you need a Database too , we choose the <strong> Mongo DB </strong> 
