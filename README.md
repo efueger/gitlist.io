@@ -19,7 +19,23 @@ To Lift the Gitlist App, do you need some Pack Ages and External Apps.
 
 Firts go a Head and downlaod Sails.js 
 
-<code> $ npm install sails </code> 
+<code> $ sudo npm -g install sails </code> 
+
+<code> $ npm -g install sails </code> 
+
+<code> $ sails lift </code>
+
+<h2>Install on OSX </h2>
+
+Using a  >  <a href="https://nodejs.org/download/">package: </a>
+Simply > <a href="https://nodejs.org/download/"> download Macintosh Installer.</a>
+Using  >  <a href="https://github.com/Homebrew/homebrew/">homebrew:  </a>
+
+<code> $ brew install node </code>
+<code> $ port install nodejs </code>
+
+
+
 
 Do you need a Database too , we choose the <strong> Mongo DB </strong> 
 
