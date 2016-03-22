@@ -2,6 +2,44 @@
 This is the Read Me file for the Gitlist.io 
 
 
+<section id="middle-place-01">
+            
+
+<div class="middle-place-con-01">
+<br>
+<br> 
+                <h1 class="description-1"> IT'S NICE TO MEET YOU</h1>
+                
+
+<p class="description-2-small"> This is my New Start Up Project and Beta Version Gitlist.io 0.0.1 
+ </p> 
+<br>      
+        
+
+<div class="bs-example">
+    
+
+<p>
+      <button class="btn btn-primary collapsed center-block" type="button" id="gitlist-promo-readmore" data-toggle="collapse" data-target="#collapseBeispiel" aria-expanded="false" aria-controls="collapseBeispiel">
+   
+      </button>
+      
+<br>
+<br>
+<br>
+    </p>
+    
+
+<div class="collapse" id="collapseBeispiel" aria-expanded="false" style="height: 0px;">
+      
+
+<div class="well container">                                                                
+ <img src="http://space.lucasgatsas.ch/images/Showcase-Devices-Presentation-lucas-gatsas-gitlist-app.png" class="center-block container-small"alt="" /> <br
+<br>
+<br>
+
+</section>
+
 Today 13. October 2013 i have launched the gitlist Project. 
  Do you can Upload your Gits from z.B. Github etc. and List it to the Gitlist. 
 
