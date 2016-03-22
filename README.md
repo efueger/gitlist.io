@@ -26,7 +26,7 @@ Do you need a Database too , we choose the Mongo DB
 <code> $ install mongodb </code>
 
 
-<h1> on a Ubuntu Linux Server on Digital Ocean </code>
+<h1> on a Ubuntu Linux Server on Digital Ocean </h1>
 
 
 
