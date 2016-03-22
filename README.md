@@ -32,6 +32,7 @@ Simply > <a href="https://nodejs.org/download/"> download Macintosh Installer.</
 Using  >  <a href="https://github.com/Homebrew/homebrew/">homebrew:  </a>
 
 <code> $ brew install node </code>
+
 <code> $ port install nodejs </code>
 
 
