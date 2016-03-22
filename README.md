@@ -12,6 +12,26 @@ More to Follow soon.
 Check out <a href="http://www.gitlist.io"> www.gitlist.io </a> <br> the Gitlist Landing Page <a href="http://www.gitlist.io/g/launching">www.gitlist.io/g/launching</a>
 
 
+To Lift the Gitlist App, do you need some Pack Ages and External Apps.
+
+
+<h1> on localhost  </h1>
+
+Firts go a Head and downlaod Sails.js 
+
+<code> $ npm install sails </code> 
+
+Do you need a Database too , we choose the Mongo DB 
+
+<code> $ install mongodb </code>
+
+
+<h1> on a Ubuntu Linux Server on Digital Ocean </code>
+
+
+
+
+
 
 <section id="middle-place-01">
             
