@@ -38,6 +38,9 @@
 
 </section>
 
+
+
+
 Today 13. October 2013 i have launched the gitlist Project. 
  Do you can Upload your Gits from z.B. Github etc. and List it to the Gitlist. 
 
@@ -60,6 +63,7 @@ Firts go a Head and downlaod Sails.js
 <code> $ npm -g install sails </code> 
 
 <code> $ sails lift </code>
+
 
 <h2>Install on OSX </h2>
 
@@ -126,16 +130,7 @@ Download the binaries from <code>https://www.mongodb.org/downloads.</code>
             
 
 <div class="middle-place-con-01">
-<br>
-<br> 
-                <h1 class="description-1"> IT'S NICE TO MEET YOU</h1>
-                
-
-<p class="description-2-small"> This is my New Start Up Project and Beta Version Gitlist.io 0.0.1 
- </p> 
-<br>      
-        
-
+   
 <div class="bs-example">
     
 
