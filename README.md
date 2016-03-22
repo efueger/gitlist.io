@@ -1,10 +1,7 @@
 # Gitlist App
 
 <section id="middle-place-01">
-            
-
-<div class="middle-place-con-01">
-<br>
+            <br>
 <br> 
                 <h1 class="description-1"> IT'S NICE TO MEET YOU</h1>
                 
@@ -14,24 +11,9 @@
 <br>      
         
 
-<div class="bs-example">
-    
 
-<p>
-      <button class="btn btn-primary collapsed center-block" type="button" id="gitlist-promo-readmore" data-toggle="collapse" data-target="#collapseBeispiel" aria-expanded="false" aria-controls="collapseBeispiel">
-   
-      </button>
-      
-<br>
-<br>
-<br>
-    </p>
-    
 
-<div class="collapse" id="collapseBeispiel" aria-expanded="false" style="height: 0px;">
-      
 
-<div class="well container">                                                                
  <img src="http://space.lucasgatsas.ch/images/Showcase-Devices-Presentation-lucas-gatsas-gitlist-app.png" class="center-block container-small"alt="" /> <br
 <br>
 <br>
