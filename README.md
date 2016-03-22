@@ -21,9 +21,33 @@ Firts go a Head and downlaod Sails.js
 
 <code> $ npm install sails </code> 
 
-Do you need a Database too , we choose the Mongo DB 
+Do you need a Database too , we choose the <strong> Mongo DB </strong> 
 
-<code> $ install mongodb </code>
+<code> $ https://fastdl.mongodb.org/osx/mongodb-osx-x86_64-3.2.4.tgz </code>
+
+<strong> 	
+Update Homebrew’s package database. </strong> 
+
+<code> $ brew update </code>
+
+<code> $ brew install mongodb </code>
+
+<code> $ brew install mongodb --with-openssl </code>
+
+<code> $ brew install mongodb --devel </code>
+
+<strong> 	
+Install MongoDB Community Edition Manually. </strong> 
+
+Download the binary files for the desired release of MongoDB.
+Download the binaries from <code>https://www.mongodb.org/downloads.</code>
+
+
+<code> curl -O https://fastdl.mongodb.org/osx/mongodb-osx-x86_64-3.2.4.tgz </code>
+ 
+ <code> tar -zxvf mongodb-osx-x86_64-3.2.4.tgz </code>
+ 
+
 
 
 <h1> on a Ubuntu Linux Server on Digital Ocean </h1>
