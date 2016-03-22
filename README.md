@@ -1,6 +1,4 @@
-# Gitlist Launching
-This is the Read Me file for the Gitlist.io 
-
+# Gitlist App
 
 <section id="middle-place-01">
             
@@ -11,7 +9,7 @@ This is the Read Me file for the Gitlist.io
                 <h1 class="description-1"> IT'S NICE TO MEET YOU</h1>
                 
 
-<p class="description-2-small"> This is my New Start Up Project and Beta Version Gitlist.io 0.0.1 
+<p class="description-2-small"> This is my New Appand Beta Version Gitlist.io 0.0.1 
  </p> 
 <br>      
         
@@ -156,7 +154,7 @@ Download the binaries from <code>https://www.mongodb.org/downloads.</code>
       
 
 <div class="well container">                                                                
- <img src="http://space.lucasgatsas.ch/images/Showcase-Devices-Presentation-lucas-gatsas-gitlist-app.png" class="center-block container-small"alt="" /> <br
+ <!--<img src="http://space.lucasgatsas.ch/images/Showcase-Devices-Presentation-lucas-gatsas-gitlist-app.png" class="center-block container-small"alt="" /> <br -->
 <br>
 <br>
 I have started with the Code after Midnight on 1. of January 03.23.02 O.Clock in the Morning with the Source of <a href="http://www.gitlist.io">gitlist.io</a> . I Choose some Open Source and started with the Front End. 
