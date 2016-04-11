@@ -1,0 +1,626 @@
+<script src="js/notify.js"></script>
+
+<%- partial ('partials/topbar.ejs') %>
+
+
+<div class="padding"></div>
+<div class="lazyload">
+
+
+
+<section id="gitlist-top-abstand"></section>
+<%- partial ('partials/oauth-twitter-github.ejs') %> 
+
+
+<style>
+
+
+</style>
+
+
+            <% if(username != "") { %>
+
+   <% } else { %>
+
+          
+
+    <div class="modal modal-video" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">Gitlist Intro 
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="videoModalLabel" class="modal-title sr-only">Video Tour</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="video-container">
+                   <iframe width="100%" height="449" src="https://www.youtube.com/embed/BfMOU1eBk-8?autoplay=1&showinfo=0&controls=0&loop=22&playlist=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ <% } %>
+      <style type="text/css">
+    .white{
+    color:#000;
+    background-color:#fff;
+}
+
+.btn-facebook {
+    color: #ffffff;
+    -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #2b4b90;
+    *background-color: #133783;
+    background-image: -moz-linear-gradient(top, #3b5998, #133783);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b5998), to(#133783));
+    background-image: -webkit-linear-gradient(top, #3b5998, #133783);
+    background-image: -o-linear-gradient(top, #3b5998, #133783);
+    background-image: linear-gradient(to bottom, #3b5998, #133783);
+    background-repeat: repeat-x;
+    border-color: #133783 #133783 #091b40;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b5998', endColorstr='#ff133783', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+    .btn-facebook:hover,
+    .btn-facebook:focus,
+    .btn-facebook:active,
+    .btn-facebook.active,
+    .btn-facebook.disabled,
+    .btn-facebook[disabled] {
+        color: #ffffff;
+        background-color: #133783 !important;
+        *background-color: #102e6d !important;
+    }
+
+    .btn-facebook:active,
+    .btn-facebook.active {
+        background-color: #0d2456 \9 !important;
+    }
+    .btn-link {
+    font-weight: 400;
+    color: rgb(66, 127, 237);
+    border-radius: 0;
+}
+
+button#color-blue {
+    color: rgb(66, 127, 237);
+    background-color: #fff;
+    border-color: rgb(66, 127, 237);
+    letter-spacing: 0;
+    font-weight: 800;
+}
+.gitlist-int-gr-1 {
+    padding-top: 105px;
+}
+    </style>
+
+              <% if(username != "") { %>
+
+   <% } else { %>
+<div class="container small">
+ 
+   
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-7"><div class="gitlist-int-gr-1">
+                <img class="img-responsive" src="http://space.lucasgatsas.ch/images/Showcase-Devices-Presentation-lucas-gatsas-gitlist-app.png" alt=""></div>
+                <br>
+                            <h1 style="        font-family: inherit;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    /* font-size: 3pc; */
+    /* line-height: 3pc; */
+    font-weight: 400;
+    /* margin-bottom: 2rem; */
+    /* padding-top: 29px; */">  Find and List your Gits around the Globe.</h1>
+
+     <p class="lead" style="color: gray;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 22px;
+    font-size: 1.8rem;
+    line-height: 0;
+    color: #86888b;
+    letter-spacing: -.035em;
+    font-weight: 400;"><i class="fa fa-rocket"></i> Start Your Free Gitlist Today!   <button type="button" class="play-trigger btn-link " data-toggle="modal" data-target="#modal-video" ><i class="fa fa-youtube-play"></i> Watch the video</button>
+                   <!-- <small>Item Subheading</small> --></p>
+
+       
+             
+
+            </div>
+
+            <div class="col-md-5">
+               <!--  <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Login via site</h3>
+                </div>
+                <div class="panel-body">
+                    <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="yourmail@example.com" name="email" type="text">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input name="remember" type="checkbox" value="Remember Me"> Remember Me
+                            </label>
+                        </div>
+                        <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+                    </fieldset>
+                    </form>
+                      <hr>
+                    <center><h4>OR</h4></center>
+                    <input class="btn btn-lg btn-facebook btn-block" type="submit" value="Login via facebook">
+                </div> -->
+
+                <div id="signup-form" class="form-signin">
+        <!--  <a class="btn btn-primary social-login-btn social-github center-block" href="/auth/github"><i class="fa fa-github"></i></a>
+          <a class="btn btn-primary social-login-btn social-twitter center-block" href="/auth/twitter"><i class="fa fa-twitter"></i></a> --> 
+          <br>
+          <div class="panel-heading">
+                    <h3 class="panel-title">Sign Up to Gitlist</h3>
+              
+          <small class="text-muted" style="    color: #666;">Already a Member? SignIn to <a href="/g/login" id="underline">Gitlist</a></small>
+          <br><br>
+          <input type="text" name="username" id="signupName" class="form-control login-input" placeholder="Username" required="" autofocus="">
+          <br>
+          <input type="email" name="email" id="signupEmail" class="form-control login-input" placeholder="E-mail">
+          <br>
+          <input name="password" type="password" id="signupPwd" class="form-control login-input" placeholder="Password">
+          <br>
+          <input name="passwordConfirmation" id="signupConfirmPwd" class="form-control login-input-pass" placeholder="Confirm Password" type="password">
+          <br>
+          <input id="fakeinput" type="text" name="fakeinput" value="" class="hidden">  
+         
+          <div class="checkbox">
+                            <label>
+                                <input name="remember" id="terms" name="terms"  type="checkbox" value="Remember Me">By clicking "Sign up for Gitlist", you agree to our terms of service and privacy policy of Gitlist. </label>
+                        </div>
+          <button class="signupBtn btn btn-lg btn-primary btn-block" id="color-blue"><i class="fa fa-check-circle-o"></i> Create Account</button>
+                            <!--  <input class="btn btn-lg btn-facebook btn-block" type="submit" value="Login via facebook"> -->
+                            <!--    <a href="/auth/twitter" class="btn btn-lg btn-block omb_btn-twitter" target="_blank">
+                    <i class="fa fa-twitter" id="tw-log-1-1"></i>
+                    <span class="hidden-xs" id="tw-log-1">Twitter</span>
+                </a> 
+
+                    <a href="/auth/github" class="btn btn-lg btn-block omb_btn-github" target="_blank">
+                    <i class="fa fa-github" id="gh-log-1-1"></i>
+                    <span class="hidden-xs" id="gh-log-1">Github</span>
+                </a> -->
+
+        </div>
+            </div>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+   <% } %>
+        <!-- Footer -->
+        
+
+    </div>
+    <style> 
+section.gitlist-introduction-space-1-1 {
+    /* background: rgb(66, 127, 237); */
+    color: white;
+    /* background: rgb(66, 127, 237); */
+    color: white;
+    /* background-image: url('http://lucasgatsas.ch/img/tumblr_mbnmjpD1WP1rhkyyso1_500.gif'); */
+    /* background-repeat: initial; */
+    /* background: no-repeat center center; */
+    /* background-attachment: scroll; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    /* height: 680px; */
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 50px;
+    width: 100%;
+    color: rgb(66, 127, 237);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        margin-top: -100px;
+}
+    </style> 
+
+
+ <% if(username != "") { %>
+
+    <style type="text/css">
+    
+.box {
+  background:#fff;
+  transition:all 0.2s ease;
+  border:2px dashed #dadada;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding:0 20px 20px 20px;
+}
+
+.box:hover {
+  border:2px solid #525C7A;
+}
+
+.box span.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box .box-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.box .box-content p {
+  color:#515c66;
+  text-transform:none;
+}
+a.btn.icon-btn.btn-primary-1 {
+    font-family: open sans;
+}
+    </style>
+
+<!--
+    <div class="container small">
+      <br><br>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                  <a href="http://www.gitlist.io/g/add">  <div class="box">
+                        <div class="box-content">
+                            <h1 class="tag-title">+ Add Git</h1>
+                            <hr />
+                            <p>Add a Git to your List. </p>
+                            <br />
+                            
+                              <a class="btn icon-btn btn-success-blue" href="http://www.gitlist.io/g/add"><span class="glyphicon btn-glyphicon fa fa-plus img-circle text-success-blue"></span>Like</a>
+
+                        </div>
+                    </div></a>
+                </div>
+                <div class="col-md-4 text-center">
+                   <a href="http://www.gitlist.io/">  <div class="box">
+                        <div class="box-content">
+                            <h1 class="tag-title">Get Fame </h1>
+                            <hr />
+                            <p>Share it and Get Fame. </p>
+                            <br />
+                          
+
+                                <a class="btn icon-btn btn-success" href="http://www.gitlist.io"><span class="glyphicon btn-glyphicon fa fa-paper-plane img-circle text-success"></span>Like</a>
+
+                        </div>
+                    </div></a>
+                </div>
+                <div class="col-md-4 text-center">
+                  <a href="http://www.gitlist.io/git/hello-world!-today-we-launched-the-gitlist">  <div class="box">
+                        <div class="box-content">
+                            <h1 class="tag-title">Community</h1>
+                            <hr />
+                            <p>Meet Developers. </p>
+                            <br />
+                         <a class="btn icon-btn btn-primary-1" href="http://www.gitlist.io/git/hello-world!-today-we-launched-the-gitlist"><span class="glyphicon btn-glyphicon fa fa-thumbs-o-up img-circle text-primary"></span>Like</a>
+                        </div>
+                    </div>
+                </div> </a>
+            </div>           
+        </div>
+    </div> -->
+
+    <style type="text/css">
+    .btn-glyphicon { padding:8px; background:#ffffff; margin-right:4px; }
+.icon-btn { padding: 1px 15px 3px 2px; border-radius:50px;}
+
+.btn-primary-1 {
+  color: #427fed;
+    /* background-color: #427fed; */
+    border-color: #427fed;
+}
+.btn-glyphicon-1 {
+    padding: 8px;
+    background: #5cb85c;
+    margin-right: 4px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #fff;
+    border-color: #4cae4c;
+}
+.btn-success-blue {
+    color: blue;
+    background-color: #fff;
+    border-color: blue;
+        font-family: Open Sans;
+}
+span.glyphicon.btn-glyphicon.fa.fa-paper-plane.img-circle.text-success {
+    background: green;
+    color: white;
+}
+span.glyphicon.btn-glyphicon.fa.fa-thumbs-o-up.img-circle.text-primary {
+    color: #fff;
+    font-weight: 800;
+}
+span.glyphicon.btn-glyphicon.fa.fa-plus.img-circle.text-success-blue {
+    background: blue;
+    color: rgba(255, 255, 255, 0.84);
+}
+
+.btn-glyphicon {
+    padding: 8px;
+    background: #427fed;
+    margin-right: 4px;
+}
+a.btn.icon-btn.btn-success {
+    font-family: open Sans;
+    color: green;
+}
+    </style>
+
+
+
+
+    <section id="gitlist-sectionspace-alerts" class="pad-section">
+    <%- partial ('partials/advertising.ejs') %>  
+</section>
+
+<section id="gitlist-sectionspace3-monthly" class="pad-section">
+    <%- partial ('partials/gitlist-list-monthly-front.ejs') %>  
+</section>
+
+
+
+
+<section id="gitlist-sectionspace-alerts" class="pad-section">
+    <%- partial ('partials/advertising.ejs') %>  
+</section>
+
+<!--
+<section class="gitlist-introduction-space-1-1">
+<div class="container small">
+<div class="row">
+            <div class="col-lg-12 text-center">
+
+
+                <br><br> <br><br>
+                                <p class="lead" style="color: gray;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 22px;
+    font-size: 1.8rem;
+    line-height: 0;
+    color: #86888b;
+    letter-spacing: -.035em;
+    font-weight: 400;">Featured in Hacker News -  <strong>Y Combinator </strong> </p>
+
+                <a href="https://news.ycombinator.com/item?id=10496670" target="_blank">    <img src="../images/hackernews.png" class="img-responsive text-center"  id="gitlist-introductions-space-1-1-1" alt="services2" style="    display: inline-block;width: 190px;"></a>
+<br><br> <br><br> <br><br>  <br><br>
+                <h1 style="    font-family: inherit;
+    font-weight: 700;
+    line-height: 1;
+    color: rgb(39, 39, 39);
+    /* font-size: 3pc; */
+    /* line-height: 3pc; */
+    font-weight: 400;
+    margin-bottom: 2rem;">Find and List your Gits around the Globe.</h1>
+                <p class="lead" style="color: gray;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 22px;
+    font-size: 1.8rem;
+    line-height: 0;
+    color: #86888b;
+    letter-spacing: -.035em;
+    font-weight: 400;"><i class="fa fa-rocket"></i> Start Your Free Gitlist Today!</p>
+                <ul class="list-unstyled">
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section> 
+
+<section id="gitlist-sectionspace-rest-part-1">
+    <div class="container">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+    
+    <p class="text-center">
+    <a href="../g/login" class="btn btn-success btn-outline-rounded green"> start using gitlist<i class="fa fa-paper-plane" style="margin-left:10px;"></i></a>
+        </p>              
+    </div>
+    </div>
+</section> -->
+
+ <% } %>
+
+
+
+<!-- gitlist-sectionspace1 gitlistusers GITLIST USERS LIST  voteup -->
+<!-- Version v.0.0.2 is comming soon! <section id="gitlist-sectionspace1" class="home">
+    <div class="container gitlistusers-voteup">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Gitlist Users</h2>
+            </div>
+            <div class="gitlist-userlist-front">
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+                <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
+            </div>
+        </div>
+    </div>
+</section> --> 
+
+<div id="search">
+    <button type="button" class="close">&times;</button>
+    <form>
+        <input type="search" value="" placeholder="Search your Git" />
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+</div>
+<div id="loadingbar-frame"></div>
+<div class="frame" id="frame"></div>
+
+<footer class="footer">
+    <div class="container">
+        <ul class="footer-links-list-copyright">
+            <li> 
+                <%- partial ('partials/gitlist-user-counter.ejs') %>  
+           </li>
+        </ul>
+        <ul class="footer-links-list">
+            <%- partial ('partials/gitlist-social-footer.ejs') %>  
+            <hr>
+        </ul>
+    </div>
+    <hr/>
+    <div class="inner-gitlist-copyright">
+        <%- partial ('partials/copyright.ejs') %>  
+    </div>
+</footer>
+
+
+</div>
+
+<script>
+ if ($.browser.webkit) {
+    $('input[name="password"]').attr('autocomplete', 'off');
+}
+</script>
+
+<script type="text/javascript">
+ 
+
+  $.notify.addStyle('confirm', {
+    html: "<div><span data-notify-text/><span>&nbsp;&nbsp;Please click <a href='/g/login'>here</a> to login!</span></div>",
+  });
+
+  // Enter key press
+  $("#signupConfirmPwd").keyup(function(e){
+      if(e.which == 13){
+          var email = $("#signupEmail").val();
+          var username = $("#signupName").val();
+          var password = $("#signupPwd").val();
+          var confirmPassword = $("#signupConfirmPwd").val();
+          var fakeinput = $("#fakeinput").val();
+          var terms = $("#terms").val();
+          if (email && username && password) {
+              if (password === confirmPassword) {
+                  $.post(
+                      '/',
+                      {email: email, username: username, password:password, passwordConfirmation:confirmPassword, fakeinput: fakeinput, terms: terms},
+                      function () {                
+                          $.notify(username + " has created an account successfully!", {style: 'confirm', className: "success", autoHide: false, clickToHide: false});
+                      }
+                  ).fail(function(res){
+                      $.notify("Error!", "error");
+                  });
+              } else {
+                  $.notify("Passwords don't match", "error");
+              }   
+          } else {
+              $.notify("A username and password is required!", "error");
+          }
+      }
+  });
+
+  // Signup button click
+  $(".signupBtn").click(function(){
+    var email = $("#signupEmail").val();
+    var username = $("#signupName").val();
+    var password = $("#signupPwd").val();
+    var confirmPassword = $("#signupConfirmPwd").val();
+    var fakeinput = $("#fakeinput").val();
+    var terms = $("#terms").val();
+    if (email && username && password) {
+        if (password === confirmPassword) {
+            $.post(
+                '/',
+                {email: email, username: username, password:password, passwordConfirmation:confirmPassword, fakeinput: fakeinput, terms: terms},
+                function () {                
+                    $.notify(username + " has created an account successfully!", {style: 'confirm', className: "success", autoHide: false, clickToHide: false});
+                }
+            ).fail(function(res){
+                $.notify("Error!", "error");
+            });
+        } else {
+            $.notify("Passwords don't match", "error");
+        }   
+    } else {
+        $.notify("A username and password is required!", "error");
+    }
+  });  
+</script>
+<style>
+    .notifyjs-confirm-base {
+        font-weight: bold;
+        padding: 8px 15px 8px 14px;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+        background-color: #fcf8e3;
+        border: 1px solid #fbeed5;
+        border-radius: 4px;
+        white-space: nowrap;
+        padding-left: 25px;
+        background-repeat: no-repeat;
+        background-position: 3px 7px;
+    }
+    .notifyjs-confirm-success {
+        color: #468847;
+        background-color: #DFF0D8;
+        border-color: #D6E9C6;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAutJREFUeNq0lctPE0Ecx38zu/RFS1EryqtgJFA08YCiMZIAQQ4eRG8eDGdPJiYeTIwHTfwPiAcvXIwXLwoXPaDxkWgQ6islKlJLSQWLUraPLTv7Gme32zoF9KSTfLO7v53vZ3d/M7/fIth+IO6INt2jjoA7bjHCJoAlzCRw59YwHYjBnfMPqAKWQYKjGkfCJqAF0xwZjipQtA3MxeSG87VhOOYegVrUCy7UZM9S6TLIdAamySTclZdYhFhRHloGYg7mgZv1Zzztvgud7V1tbQ2twYA34LJmF4p5dXF1KTufnE+SxeJtuCZNsLDCQU0+RyKTF27Unw101l8e6hns3u0PBalORVVVkcaEKBJDgV3+cGM4tKKmI+ohlIGnygKX00rSBfszz/n2uXv81wd6+rt1orsZCHRdr1Imk2F2Kob3hutSxW8thsd8AXNaln9D7CTfA6O+0UgkMuwVvEFFUbbAcrkcTA8+AtOk8E6KiQiDmMFSDqZItAzEVQviRkdDdaFgPp8HSZKAEAL5Qh7Sq2lIJBJwv2scUqkUnKoZgNhcDKhKg5aH+1IkcouCAdFGAQsuWZYhOjwFHQ96oagWgRoUov1T9kRBEODAwxM2QtEUl+Wp+Ln9VRo6BcMw4ErHRYjH4/B26AlQoQQTRdHWwcd9AH57+UAXddvDD37DmrBBV34WfqiXPl61g+vr6xA9zsGeM9gOdsNXkgpEtTwVvwOklXLKm6+/p5ezwk4B+j6droBs2CsGa/gNs6RIxazl4Tc25mpTgw/apPR1LYlNRFAzgsOxkyXYLIM1V8NMwyAkJSctD1eGVKiq5wWjSPdjmeTkiKvVW4f2YPHWl3GAVq6ymcyCTgovM3FzyRiDe2TaKcEKsLpJvNHjZgPNqEtyi6mZIm4SRFyLMUsONSSdkPeFtY1n0mczoY3BHTLhwPRy9/lzcziCw9ACI+yql0VLzcGAZbYSM5CCSZg1/9oc/nn7+i8N9p/8An4JMADxhH+xHfuiKwAAAABJRU5ErkJggg==);
+    }
+</style>
