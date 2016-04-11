@@ -35,6 +35,16 @@ Check out <a href="http://www.gitlist.io"> www.gitlist.io </a> <br> the Gitlist 
 
 To Lift the Gitlist App, do you need some Pack Ages and External Apps.
 
+if you have intsall all packages : 
+Go A Head!
+
+Download Source : 
+
+Open Termial with the Folder: 
+
+<code> $ sudo sails lift </code>
+
+-----
 
 <h1> on localhost  </h1>
 
