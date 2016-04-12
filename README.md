@@ -44,6 +44,8 @@ Open Termial with the Folder:
 
 <code> $ sudo sails lift </code>
 
+
+for all Issues here : <a href="https://github.com/SpaceG/gitlist.io/issues"> Gitlist Issues </a>
 -----
 
 <h1> on localhost  </h1>
