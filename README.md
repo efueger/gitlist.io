@@ -50,7 +50,7 @@ for all Issues here : <a href="https://github.com/SpaceG/gitlist.io/issues"> Git
 
 <h1> on localhost  </h1>
 
-Firts go a Head and downlaod Sails.js 
+downlaod Sails.js 
 
 <code> $ sudo npm -g install sails </code> 
 
@@ -186,11 +186,7 @@ openssl version -a
 <div class="well container">                                                                
  <!--<img src="http://space.lucasgatsas.ch/images/Showcase-Devices-Presentation-lucas-gatsas-gitlist-app.png" class="center-block container-small"alt="" /> <br -->
 <br>
-<br>
-I have started with the Code after Midnight on 1. of January 03.23.02 O.Clock in the Morning with the Source of <a href="http://www.gitlist.io">gitlist.io</a> . I Choose some Open Source and started with the Front End. 
 
-<br>
-<br> 
 <br> <strong> Programming Languages </strong> 
 <br>
 <br> <strong> HTML5 </strong> <a href="https://en.wikipedia.org/wiki/HTML5" target="blank"> Link to : HTML5</a> 
@@ -266,7 +262,6 @@ which simplifies and accelerates web application development.
 <br> 
 <br> 
 <br> - Lindes of Code <strong>678'134 </strong>(Web App in Code of Lines) 
-<br> Start Up, Idea, Realisation, Development Time since: <strong> 1. of January - 13 of October 2015 </strong> 
 <br> 
 <br> 
 <br> 
