@@ -42,6 +42,13 @@ Download Source :
 
 Open Termial with the Folder: 
 
+first remove the <code>node_module </code> folder, then install npm packages <code> $npm install </code>
+then after, $ sudo sails lift , do you will see, it give a error back, becuase do you haven't install MongoDB  packages..
+install Mongo DB : via commandline in the same dictory which you launch the full app : run <code> npm install sails-mongo --save </code> then it will intsall all MongoDB Packages : then run again <code> $ sudo sails lift </code> .
+
+
+
+
 <code> $ sudo sails lift </code>
 
 
