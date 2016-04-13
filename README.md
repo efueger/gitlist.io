@@ -52,6 +52,11 @@ install Mongo DB : via commandline in the same dictory which you launch the full
 <code> $ sudo sails lift </code>
 
 
+Install Video
+<a href="https://www.youtube.com/watch?v=mOZGPi0grTw">Install Video </a>
+
+
+
 for all Issues here : <a href="https://github.com/SpaceG/gitlist.io/issues"> Gitlist Issues </a>
 -----
 
