@@ -104,7 +104,7 @@ Do you need a Database too , we choose the <strong> Mongo DB </strong>
 
 <code> $ https://fastdl.mongodb.org/osx/mongodb-osx-x86_64-3.2.4.tgz </code>
 
-<strong> 	
+<strong>  
 Update Homebrew’s package database. </strong> 
 
 <code> $ brew update </code>
@@ -115,7 +115,7 @@ Update Homebrew’s package database. </strong>
 
 <code> $ brew install mongodb --devel </code>
 
-<strong> 	
+<strong>  
 Install MongoDB Community Edition Manually. </strong> 
 
 Download the binary files for the desired release of MongoDB.
