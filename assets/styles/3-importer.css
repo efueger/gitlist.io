@@ -333,3 +333,354 @@ input:-webkit-autofill:active {
     -webkit-text-fill-color: #fff;
 
 }
+
+
+
+
+section.gitlist-introduction-space-1-1 {
+    /* background: rgb(66, 127, 237); */
+    color: white;
+    /* background: rgb(66, 127, 237); */
+    color: white;
+    /* background-repeat: initial; */
+    /* background: no-repeat center center; */
+    /* background-attachment: scroll; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    /* height: 680px; */
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 50px;
+    width: 100%;
+    color: rgb(66, 127, 237);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+img#gitlist-introductions-space-1-1-1 {
+    display: block;
+    opacity: 1;
+    padding-left: 0px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    padding-top: 40px;
+}
+
+
+@media (min-width: 968px) {
+img#gitlist-introductions-space-1-1-1  {
+
+   display: block;
+    opacity: 1;
+    padding-left: 30px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    padding-top: 40px;
+
+
+
+}}
+
+section.gitlist-introduction-space-1-1 {
+    /* background: rgb(66, 127, 237); */
+    color: white;
+    /* background: rgb(66, 127, 237); */
+    color: white;
+    /* background-repeat: initial; */
+    /* background: no-repeat center center; */
+    /* background-attachment: scroll; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    /* height: 680px; */
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 50px;
+    width: 100%;
+    color: rgb(66, 127, 237);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img#gitlist-introductions-space-1-1-1 {
+    display: block;
+    opacity: 1;
+    padding-left: 0px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    padding-top: 40px;
+}
+
+
+@media (min-width: 968px) {
+img#gitlist-introductions-space-1-1-1  {
+
+   display: block;
+    opacity: 1;
+    padding-left: 30px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    padding-top: 40px;
+
+
+
+}}
+section.gitlist-introduction-space-1-1 {
+    /* background: rgb(66, 127, 237); */
+    color: white;
+    /* background: rgb(66, 127, 237); */
+    color: white;
+    /* background-repeat: initial; */
+    /* background: no-repeat center center; */
+    /* background-attachment: scroll; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    /* height: 680px; */
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 50px;
+    width: 100%;
+    color: rgb(66, 127, 237);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}img#gitlist-introductions-space-1-1-1 {
+    display: block;
+    opacity: 1;
+    padding-left: 0px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    padding-top: 40px;
+}
+
+
+@media (min-width: 968px) {
+img#gitlist-introductions-space-1-1-1  {
+
+   display: block;
+    opacity: 1;
+    padding-left: 30px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    padding-top: 40px;
+
+
+
+}}h2.title.text-center {
+    color: #4183c4;
+}
+.text-center {
+    text-align: center;
+}
+.centered {
+    text-align: center;
+}
+
+
+/* Navbar front */ 
+nav.navbar.navbar-default.navbar-fixed-top {
+    overflow: inherit;
+    border-bottom: 1px solid rgba(0,0,0,.08);
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.01);
+    box-shadow: 0 1px 5px rgba(0,0,0,.01);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,.01);
+     position:fixed;
+}
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-top: 40px;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    position: fixed:;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    text-align: center;
+    border-radius: 0px;
+}
+
+
+
+
+
+    .btn-glyphicon { padding:8px; background:#ffffff; margin-right:4px; }
+.icon-btn { padding: 1px 15px 3px 2px; border-radius:50px;}
+
+.btn-primary-1 {
+  color: #427fed;
+    /* background-color: #427fed; */
+    border-color: #427fed;
+}
+.btn-glyphicon-1 {
+    padding: 8px;
+    background: #5cb85c;
+    margin-right: 4px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #fff;
+    border-color: #4cae4c;
+}
+.btn-success-blue {
+    color: blue;
+    background-color: #fff;
+    border-color: blue;
+        font-family: Open Sans;
+}
+span.glyphicon.btn-glyphicon.fa.fa-paper-plane.img-circle.text-success {
+    background: green;
+    color: white;
+}
+span.glyphicon.btn-glyphicon.fa.fa-thumbs-o-up.img-circle.text-primary {
+    color: #fff;
+    font-weight: 800;
+}
+span.glyphicon.btn-glyphicon.fa.fa-plus.img-circle.text-success-blue {
+    background: blue;
+    color: rgba(255, 255, 255, 0.84);
+}
+
+.btn-glyphicon {
+    padding: 8px;
+    background: #427fed;
+    margin-right: 4px;
+}
+a.btn.icon-btn.btn-success {
+    font-family: open Sans;
+    color: green;
+}
+
+.box {
+  background:#fff;
+  transition:all 0.2s ease;
+  border:2px dashed #dadada;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding:0 20px 20px 20px;
+}
+
+.box:hover {
+  border:2px solid #525C7A;
+}
+
+.box span.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box .box-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.box .box-content p {
+  color:#515c66;
+  text-transform:none;
+}
+a.btn.icon-btn.btn-primary-1 {
+    font-family: open sans;
+}
+
+
+
+
+
+    .white{
+    color:#000;
+    background-color:#fff;
+}
+
+.btn-facebook {
+    color: #ffffff;
+    -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #2b4b90;
+    *background-color: #133783;
+    background-image: -moz-linear-gradient(top, #3b5998, #133783);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b5998), to(#133783));
+    background-image: -webkit-linear-gradient(top, #3b5998, #133783);
+    background-image: -o-linear-gradient(top, #3b5998, #133783);
+    background-image: linear-gradient(to bottom, #3b5998, #133783);
+    background-repeat: repeat-x;
+    border-color: #133783 #133783 #091b40;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b5998', endColorstr='#ff133783', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+    .btn-facebook:hover,
+    .btn-facebook:focus,
+    .btn-facebook:active,
+    .btn-facebook.active,
+    .btn-facebook.disabled,
+    .btn-facebook[disabled] {
+        color: #ffffff;
+        background-color: #133783 !important;
+        *background-color: #102e6d !important;
+    }
+
+    .btn-facebook:active,
+    .btn-facebook.active {
+        background-color: #0d2456 \9 !important;
+    }
+    .btn-link {
+    font-weight: 400;
+    color: rgb(66, 127, 237);
+    border-radius: 0;
+}
+
+button#color-blue {
+    color: rgb(66, 127, 237);
+    background-color: #fff;
+    border-color: rgb(66, 127, 237);
+    letter-spacing: 0;
+    font-weight: 800;
+}
+.gitlist-int-gr-1 {
+    padding-top: 105px;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+.gitlist-rtzrs{
+    display: none;
+}}
+
+
+
+@media (max-width: 768px) {
+
+div#gitlist-collapses-0-1 {
+  display: none;
+}}

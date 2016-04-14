@@ -4,22 +4,29 @@
   <div class="col-md-12">
         <div class="navbar-header">
         <!--   <a class="navbar-brand" href="/"> 
-<i class="fa fa-sort-amount-desc" id="gitlist-logo"></i>
+        <i class="fa fa-sort-amount-desc" id="gitlist-logo"></i>
            </a> --> 
-          <a class="navbar-brand-gitlist" href="/"><img src="../images/gl-logo-1.png" id="gitlist-logo"><!--<h13>v.0.0.1 </h13> --><br> <!--<h13>the best <strong> way </strong> to share <strong> Git.</strong> </h13> --></a>
-
-     <!--   <a class="brand brand-color" href="index.html">   <img src="../images/gl-logo-1.png" id="gitlist-logo"> </a> --> 
+          <a class="navbar-brand-gitlist" href="/"><img src="../images/gl-logo-1.png" id="gitlist-logo"><br></a>
 
 
-       <!--   <a href="#" class="navbar-brand">Bootstrap</a> -->
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse1">
-<i class="fa fa-bars"></i>
-
+          <i class="fa fa-bars"></i>
           </button>
+
+            <!-- Show Up The User Name -->           
              <% if(username != "") { %>
+
+
           <div class="gitlist-rtzrs" style="
 /* display: none; */">          
           <a href="#" style="margin-left:15px;vertical-align: middle;" class="navbar-btn btn btn-default btn-plus dropdown-toggle" data-toggle="dropdown" id="gitlist-header-top" aria-expanded="false"><i class="fa fa-home" style="color:#4285f4;"></i> Home <small><i class="fa fa-list"></i></small></a>
+
+          <!-- ! 
+
+            The Current Active Menu of Gitlist ! 
+
+            --> 
+
           <ul class="nav dropdown-menu">
               <li><a href="/test"><i class="fa fa-user-md" style="color:#1111dd;"></i> Profile</a></li>
               <li><a href="/"><i class="fa fa-clipboard" style="color:#0000aa;"></i> Gitlist</a></li>
@@ -30,38 +37,34 @@
               <li><a href="/logout">Log Out</a></li>
 
           </ul>
+
+
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse2">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
+
+
         </div>
          <% } %>
+            <!-- END  Show Up The User Name -->           
+
         </div>
 
 
-<style>
-
-@media (min-width: 768px) {
-.gitlist-rtzrs{
-    display: none;
-}}
-
-
-
-@media (max-width: 768px) {
-
-div#gitlist-collapses-0-1 {
-  display: none;
-}}
-</style>
-
-
-
+            <!-- Show Up The User Name -->           
              <% if(username != "") { %>
-        <div class="navbar-header" id="gitlist-collapses-0-1">          
-          <a href="#" style="margin-left:15px;" class="navbar-btn btn btn-default btn-plus dropdown-toggle" data-toggle="dropdown" id="gitlist-header-top"><i class="fa fa-home" style="color:#4285f4;"></i> Home <small><i class="fa fa-list"></i></small></a>
+             
+        <div class="navbar-header" id="gitlist-collapses-0-1">    
+
+          <a href="#" style="margin-left:15px;" class="navbar-btn btn btn-default btn-plus dropdown-toggle" data-toggle="dropdown" id="gitlist-header-top">
+            <i class="fa fa-home" style="color:#4285f4;"></i> 
+            Home 
+            <small><i class="fa fa-list"></i></small>
+          </a>
+         
           <ul class="nav dropdown-menu">
               <li><a href="/<%- slug%>"><i class="fa fa-user-md" style="color:#1111dd;"></i> Profile</a></li>
               <li><a href="/"><i class="fa fa-clipboard" style="color:#0000aa;"></i> Gitlist</a></li>
@@ -70,16 +73,20 @@ div#gitlist-collapses-0-1 {
               <li><a href="/g/settings"><i class="fa fa-cog" style="color:#dd1111;"></i> Settings</a></li>
               <li><a href="/g/add"><i class="fa fa-plus"></i> Add Git</a></li>
               <li><a href="/logout">Log Out</a></li>
-
           </ul>
+
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse2">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
+
         </div>
+
         <% } %>
+            <!-- END Show Up The User Name -->           
+
         <div class="collapse navbar-collapse" id="navbar-collapse1">
           <form class="navbar-form pull-left">
               <div class="input-group" style="max-width:470px;">
@@ -89,6 +96,11 @@ div#gitlist-collapses-0-1 {
                 </div> -->
               </div>
           </form>
+
+
+
+            <!-- Another navbar Start Here for the Menu like // trending, popular, staffgits, recent, mostvoted gits // Main Menu -- Not the User Profile Menu : Hope do you Understand it !  --> 
+
              <!--  <div class="navbar-brand navbar-brand-centered">
                     <ul class="nav navbar-nav navbar-center">
                     <p class="gitlist-search-option-top">Search your needed Git   <a href="#search"><i class="fa fa-search"></i> Search</a></p> 
@@ -102,6 +114,9 @@ div#gitlist-collapses-0-1 {
                 <li id="recent"><a href="/g/recent">Recent Gits</a></li>
                 <li id="most_vote"><a href="/g/mostvoted">Most Voted</a></li>
              </ul> -->
+
+
+
           <ul class="nav navbar-nav navbar-right">
               <li><a href="/g/add" id="submit-git-link">+Submit Git</a></li>
         
@@ -110,6 +125,11 @@ div#gitlist-collapses-0-1 {
                     <a href="#" class="dropdown-toggle profile-image" data-toggle="dropdown" aria-expanded="false">
                     <img id="userImage" src="<%- picture %>" style="width:30px;height:30px;" class="img-circle special-img"> <!-- <b class="caret"></b> --></a>
                 <% } %>
+
+
+                    <!-- Another navbar Start Here for the Menu like // trending, popular, staffgits, recent, mostvoted gits // Main Menu -- Not the User Profile Menu : Hope do you Understand it !  --> 
+
+
                 <!--  <ul class="dropdown-menu" id="gitlist-user-settings">
                     <li><a href="/g/settings"><i class="fa fa-cog"></i> Account</a></li>
                     <li class="divider"></li>
@@ -142,6 +162,13 @@ div#gitlist-collapses-0-1 {
      </div> 
 </div>
 
+
+  <!-- Another navbar Start Here for the Menu like // trending, popular, staffgits, recent, mostvoted gits // Main Menu -- Not the User Profile Menu : Hope do you Understand it ! 
+
+   Achtung - Danger : Its The Same Menu like Above 
+
+   --> 
+
 <!-- <div class="navbar navbar-default" id="subnav">
     <div class="col-md-12" id="gitlist-navbar">
    
@@ -158,6 +185,13 @@ div#gitlist-collapses-0-1 {
 </div>
 -->
 
+
+<!-- Another navbar Start Here for the Menu like // trending, popular, staffgits, recent, mostvoted gits // Main Menu -- Not the User Profile Menu : Hope do you Understand it ! 
+
+   Achtung - Danger : Its The Same Menu like Above 
+   This is the Javascript Script and Code for the Click to the Pages //// 
+
+   --> 
 
 
 <script type="text/javascript">
