@@ -46,8 +46,17 @@ first remove the <code>node_module </code> folder, then install npm packages <co
 then after, $ sudo sails lift , do you will see, it give a error back, becuase do you haven't install MongoDB  packages..
 install Mongo DB : via commandline in the same dictory which you launch the full app : run <code> npm install sails-mongo --save </code> then it will intsall all MongoDB Packages : then run again <code> $ sudo sails lift </code> .
 
+<h1>install without node_modules</h1>
 
+check out install Video : <a href="https://www.youtube.com/watch?v=mOZGPi0grTw"> Install Video - Install Gitlist </a>
 
+<code>  $ git clone https://github.com/SpaceG/gitlist.io.git </code>
+
+<code>  $ sudo sails lift </code>
+
+<code>  $ npm install </code>
+
+<code>  $ npm install sails-mongo --save  </code>
 
 <code> $ sudo sails lift </code>
 
