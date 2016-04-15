@@ -21,7 +21,6 @@
 <input type="hidden" id="useremail" value="<%- email%>" />
 
 <section id="gitlist-top-abstand"></section>
-<!-- gitlist-sectionspace2 -->
 <section id="gitlist-userpage-sectionspace" class="pad-section">
     <div class="container small" id="gitlist-container">
         <div class="row">
@@ -52,8 +51,7 @@
                                 <span class="timestamp"></span>by <span class="verify_badge" data-placement="bottom" data-toggle="tooltip" title="" data-original-title="Verified Traveler"><i class="icon-ok-sign"></i></span> 
                                 <a class="owner" href="/<%- post.author.slug%>"><%- post.author.username%></a>
                                 <span class="tags">
-                                   <!-- <a href="">#Italy</a>
-                                    <a href="">#Code #Github</a> --> 
+                             
                                 </span> 
                             </div>
                         </div>
@@ -81,23 +79,7 @@
                             <% if(comments.length > 0) { %>
                                 <% for(var i = 0; i < comments.length; i++) { %>
                                     <div id='<%- comments[i].id%>' class='comment [ panel panel-default ] panel-gitlist-plus'>
-                                       <!-- Version 2 <div class='dropdown'>
-                                            <span class='dropdown-toggle' type='button' data-toggle='dropdown'>
-                                                <span class='[ glyphicon glyphicon-chevron-down ]'></span>
-                                            </span>
-                                            <ul class='dropdown-menu' role='menu'>
-                                                <li role='presentation'><a role='menuitem' tabindex='-1' href=''>Action</a></li>
-                                                <li role='presentation'><a role='menuitem' tabindex='-1' href=''>Another action</a></li>
-                                                <li role='presentation'><a role='menuitem' tabindex='-1' href=''>Something else here</a></li>
-                                                <li role='presentation' class='divider'></li>
-                                                <li role='presentation'><a role='menuitem' tabindex='-1' href=''>Separated link</a></li>
-                                            </ul>
-                                        </div> --> 
-                                      <!--  <div class='panel-gitlist-plus-tags'>
-                                            <ul>
-                                                <li>#openthedoors</li>
-                                            </ul>
-                                        </div> --> 
+                              
                                         <div class='panel-heading'>
                                             <a href='/<%- comments[i].author.slug%>'><img class='[ img-circle pull-left ]' src='<%- comments[i].author.picture%>' style='width:46px;height46px;    margin-right: 15px;'></a>
                                             <h3><%- comments[i].author.username%></h3>
@@ -136,11 +118,7 @@
                                 <% } %>
                             </div>
                             <% if(username != "") { %> 
-                              <!--  <p class="form-allowed-tags">Text formatting is available via select <button id="allowed-tags-trigger" class="btn btn-link" type="button" data-toggle="collapse" data-target="#allowed-tags" aria-expanded="true">HTML</button>. </p> --> 
-                              <!--  <div id="allowed-tags" class="collapse in" aria-expanded="true">
-                                    <pre>&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;strike&gt; &lt;strong&gt;</pre>
-                                    <p></p>
-                                </div>  -->          
+                   
                                 <p class="form-submit">
                                     <input name="submit" type="button" id="submit" value="Post Comment" class="btn btn-primary gitlist-comment-button">
                                     <input type="hidden" name="comment_post_ID" value="3868" id="comment_post_ID" class="form-control">
@@ -184,7 +162,6 @@
                     <div class="col-md-4" id="gitlist-sitebar" style="border-radius: 3px; border-right: 1px solid #e5e5e5; border-left: 1px solid #e5e5e5; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; margin-bottom: -1px;">
                         <h3 id="git_title"><%- post.title%></h3>
                         <p id="description"><%- post.description%></p>
-                      <!--  <h3>#hashtags</h3> --> 
 
 
 
@@ -196,18 +173,7 @@
                             <li>  <a class='twitter' data-remote='true' href='https://twitter.com/intent/tweet?text=http://gitlist.io/git/<%- post.slug %>' target='_blank'><i class='fa fa-twitter'></i> <span>tweet</span></a> </li><br><br> 
                         </ul>
 
-                       <!-- <h3>Votes</h3> --> 
-                     <!-- but in the version 0.0.2   <ul>
-                            <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
-                            <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
-                            <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
-                            <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
-                            <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
-                            <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
-                            <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
-                            <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
-                            <li><img class="img-circle img-responsive img-center" src="http://placehold.it/40x40" alt=""></li>
-                        </ul> -->
+                
                     </div>
                 </div>
             </div>
@@ -239,38 +205,8 @@ a.twitter {
 }
 </style>
 
-<!-- gitlist-sectionspace2 
-<section id="gitlist-userpage-sectionspace-related-gits" class="pad-section">
-    <div class="container small" id="gitlist-container">
-        <div class="col-md-8">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3 class="page-header">Related Gits</h3>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href=""><img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt=""></a>
-                    <p>Science Medium Theme </p>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href=""><img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt=""></a>
-                    <p>Science Medium Theme </p>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href=""><img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt=""></a>
-                    <p>Science Medium Theme </p>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href=""><img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt=""></a>
-                    <p>Science Medium Theme </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
---> 
-<!-- /gitlist-sectionspace-rest-part-1 --> 
 
 
 <section class="gitlist-introduction-space-1-1">
@@ -294,7 +230,6 @@ a.twitter {
     letter-spacing: -.035em;
     font-weight: 400;"><i class="fa fa-rocket"></i> Start Your Free Gitlist Today!</p>
                 <ul class="list-unstyled">
-                   <!-- <li>Gitlist V.0.0.1</li> --> 
                 </ul>
             </div>
         </div>
@@ -303,8 +238,6 @@ a.twitter {
 <section id="gitlist-sectionspace-rest-part-1">
     <div class="container">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-         <!--   <h2>Start your Free Gitlist Today!
-            </h2><br> -->
     <p class="text-center">
     <a href="../g/login" class="btn btn-success btn-outline-rounded green"> start using gitlist<i class="fa fa-paper-plane" style="margin-left:10px;"></i></a>
         </p>              

@@ -135,62 +135,43 @@
             <div class="col-md-3">
                 <div class="profile-sidebar">
                     <% if(username != "") { %>
-                        <!-- SIDEBAR USERPIC -->
-                        <div class="profile-userpic">
+                             <div class="profile-userpic">
                             <img id="userpic" src="<%- picture%>" class="img-responsive" alt="">                        
                         </div>
-                        <!-- END SIDEBAR USERPIC -->
-                        <!-- SIDEBAR USER TITLE -->
+         
                         <div class="profile-usertitle">
                             <div class="profile-usertitle-name"><%- username%></div>
                         </div>
-                        <!-- END SIDEBAR USER TITLE -->
+               
                         <input type="hidden" id="useremail" value="<%- email%>" >
                     <% }else{ %>
-                        <!-- SIDEBAR USERPIC -->
+            
                         <div class="profile-userpic">
                             <img id="userpic" src="/images/user-1.png" class="img-responsive" alt="">                        
                         </div>
-                        <!-- END SIDEBAR USERPIC -->
-                        <!-- SIDEBAR USER TITLE -->
+                 
                         <div class="profile-usertitle">
                             <div class="profile-usertitle-name"></div>
                         </div>
-                        <!-- END SIDEBAR USER TITLE -->
                         <input type="hidden" id="useremail" value="" >
                     <% } %>
-                    <!-- SIDEBAR BUTTONS -->
                     <div class="profile-userbuttons">
-                    <!--    <button type="button" class="btn btn-success btn-sm">Follow</button>
-                        <button type="button" class="btn btn-primary-blue btn-sm">Message</button> -->
+               
                     </div>
-                    <!-- END SIDEBAR BUTTONS -->
-                    <!-- SIDEBAR MENU -->
+         
                     <div class="profile-usermenu">
                         <ul class="nav">
-                          <!--  <li class="active">
-                                <a href="#">
-                                <i class="glyphicon glyphicon-home"></i>
-                                Account </a>
-                            </li> -->
                             <li>
                                 <a href="/g/settings">
-                            <!--    <i class="glyphicon glyphicon-user"></i> -->
                                 Account Settings </a>
                             </li>
                             <li>
                                 <a href="/g/account">
-                              <!--  <i class="glyphicon glyphicon-ok"></i> --> 
                                 Password </a>
                             </li>
-                          <!--  <li>
-                                <a href="#">
-                                <i class="glyphicon glyphicon-flag"></i>
-                                Help </a>
-                            </li> -->
+                  
                         </ul>
                     </div>
-                    <!-- END MENU -->
                 </div>
             </div>
             <div class="col-md-9">
