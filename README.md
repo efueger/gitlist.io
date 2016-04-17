@@ -1,4 +1,7 @@
-# Gitlist App
+# Gitlist App 
+
+Active Version 1.0.1 
+Unactive Version 1.0.2 is coming in the next Days! :) ! 
 
 <section id="middle-place-01">
             <br>
