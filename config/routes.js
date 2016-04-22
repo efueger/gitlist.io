@@ -133,7 +133,6 @@ module.exports.routes = {
 'get /g/years': 'HomeController.years',
 
 
-/// READING FOR GIANCARLO///
 /// Adding  NOW TESTS for SUBFOLDERS and Controllers ///
 
  'get /g/edit': 'HomeController.g',
@@ -163,6 +162,9 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
+
+  /// Get User counter /// 
+ ///'/getPosts': 'PostController.getPosts',
  
  /// Get User counter /// 
  '/getUsers': 'AuthController.getUsers',

@@ -1,88 +1,46 @@
 <%- partial ('../partials/topbar.ejs') %>
 <section id="gitlist-top-abstand"></section>
-
+           <div class="wrapper wrapper-content animated fadeInUp"> <!--wrapper wrapper-content animated fadeInUp--> 
+                    <div class="ibox">
+                        <div class="ibox-title">
+                                <% if(username != "") { %>   
+                                <h5>All projects assigned to this account</h5>
+<!-- else happend when that thing show up when user is logged in or not --> <% } else { %>
+                                                      <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+  	<li><a href="/">Gitlist</a></li>
+    <li><a href="/g/trending">Trending</a></li>
+    <li><a href="/g/popular">Popular</a></li>
+    <li><a href="/g/recent">Recent</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="/g/add">+ Git</a></li>
+  </ul>
+</div>
+                                <% } %>
+                            <div class="ibox-tools">
+                                <a href="/g/add"  id="submit-git-link" class="btn btn-primary btn-xs">+Submit Git</a>
+                                <!--  <li><a href="/g/add" id="submit-git-link">+Submit Git</a></li>--> 
+                            </div>
+                        </div>
+                       <div class="ibox-content">
+                          <div class="row m-b-sm m-t-sm">
+                            </div> 
 <!-- oAuth for Github and Twitter --> 
 <%- partial ('../partials/oauth-twitter-github.ejs') %>
 
-<!-- gitlist-sectionspace  
-      MONTLY SECTION
-      MONTLY GITLIST -->
+
     <section id="gitlist-sectionspace3-monthly" class="pad-section">
         <%- partial ('../partials/gitlist-list-monthly-front.ejs') %>  
     </section>
 
-<!-- Alerts and Add banners Here --> 
-<!-- /gitlist-sectionspace1 --> <!-- gitlist-sectionspace3 -->
+
     <section id="gitlist-sectionspace-alerts" class="pad-section">
         <%- partial ('../partials/advertising.ejs') %>  
     </section>
-<!-- End Alerts and Add banners Here --> 
-<!-- End gitlist-sectionspace1 --> <!-- gitlist-sectionspace3 -->
-
-<section class="gitlist-introduction-space-1-1">
-<div class="container small">
-<div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 style="    font-family: inherit;
-    font-weight: 700;
-    line-height: 1;
-    color: rgb(39, 39, 39);
-    /* font-size: 3pc; */
-    /* line-height: 3pc; */
-    font-weight: 400;
-    margin-bottom: 2rem;">Find and List your Gits around the Globe.</h1>
-                <p class="lead" style="color: gray;
-    font-family: 'Open Sans',sans-serif;
-    font-size: 22px;
-    font-size: 1.8rem;
-    line-height: 0;
-    color: #86888b;
-    letter-spacing: -.035em;
-    font-weight: 400;"><i class="fa fa-rocket"></i> Start Your Free Gitlist Today!</p>
-                <ul class="list-unstyled">
-                   <!-- <li>Gitlist V.0.0.1</li> --> 
-                </ul>
-            </div>
-        </div>
-        </div>
-    </section> 
-<!-- /gitlist-sectionspace-rest-part-1 --> 
-<section id="gitlist-sectionspace-rest-part-1">
-    <div class="container">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-           <!-- <h2>Start your Free Gitlist Today!
-            </h2><br> --> 
-    <p class="text-center">
-    <a href="../g/login" class="btn btn-success btn-outline-rounded green"> start using gitlist<i class="fa fa-paper-plane" style="margin-left:10px;"></i></a>
-        </p>              
-    </div>
-    </div>
-</section>
 
 
-
-<div id="search">
-    <button type="button" class="close">&times;</button>
-    <form>
-        <input type="search" value="" placeholder="Search your Git" />
-        <button type="submit" class="btn btn-primary">Search</button>
-    </form>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <ul class="footer-links-list-copyright">
-            <li> 
-                <%- partial ('../partials/gitlist-user-counter.ejs') %>  
-            </li>
-        </ul>
-        <ul class="footer-links-list">
-            <%- partial ('../partials/gitlist-social-footer.ejs') %>  
-            <hr>
-        </ul>
-    </div>
-    <hr/>
-    <div class="inner-gitlist-copyright">
-        <%- partial ('../partials/copyright.ejs') %>  
-    </div>
-</footer>
+    </div> <!--end up wrapper wrapper-content animated fadeInUp
+				note for the homepage.ejs is in the homepage.ejs file --> 

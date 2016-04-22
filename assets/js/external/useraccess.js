@@ -1,15 +1,3 @@
-/*!
-   * GitList Version V.0.0.1 (http://gitlist.io)
- 	 * Copyright 2014-2015 Gitlist, by Lucas Gatsas and Giancarlo Soverini.
- 	 * Licensed under MIT (comingsoonlink) */ 
-
- /* - Created by Lucas Gatsas 
- 		- https://www.twitter.com/LucasGatsas 
-
- 		- Created by Giancarlo Soverini
-		- https://twitter.com/GSoverini
-
-  */
 
 
 ;(function(){

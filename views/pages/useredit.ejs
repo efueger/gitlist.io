@@ -1,33 +1,28 @@
 <%- partial ('../partials/topbar.ejs') %>
 
 
+<!-- this page is nothing. just from the test version 0.0.1 - never used this page for the app
+     just a blank page for testing something for the user editing pages 
+
+
+    Note: Just a Blank edit.ejs page for testing some features for new versions  : 2014
+
+   --> 
+
+
 <section id="gitlist-sectionspace-user-edit-gitlist" class="pad-section">
               <div class="container editusersgitlist" id="gitlist-container">
-
-                   <div class="row">
+              <div class="row">
       <div class="col-lg-4 col-lg-offset-4" id="gitlist-users-profile">
           <img src="https://pbs.twimg.com/profile_images/510538354606100484/MeeKLsxw_200x200.png" class="avatar img-circle" alt="avatar">
           <h6>Upload a different photo...</h6>
-
           <br>
-
-
-                <input type="file" id="inputfile">
-
-          
+          <input type="file" id="inputfile">
           <input type="file" class="form-control">
-
-                                    <h2 class="page-header-addgitlist">Account Settings</h2><br>
-
+          <h2 class="page-header-addgitlist">Account Settings</h2><br>
       </div>  
-</div>
-                           
-
-
-
-
+</div>                          
  <form class="form-signin" data-ember-action="2">
-
   <div class="col-md-4 col-lg-12 center-block">
 <a class="btn btn-primary social-login-btn social-github center-block" href="/auth/github"><i class="fa fa-github"></i></a>
   <a class="btn btn-primary social-login-btn social-twitter center-block" href="/auth/twitter"><i class="fa fa-twitter"></i></a>
@@ -47,14 +42,10 @@
            <input id="signin-gitlist" class="ember-view ember-text-field form-control login-input-pass" placeholder="Type e-Mail again" type="password">
           <br>
 
-
-            <label class="checkbox">
+    <label class="checkbox">
           <input type="checkbox" value="terms-agree">by clicking the button agreeing our terms of service.
-                <button class="btn btn-lg btn-primary btn-block " type="submit" data-bindattr-3="3" id="color-blue">Update Profile</button>
-
-        </label>
-
-
+          <button class="btn btn-lg btn-primary btn-block " type="submit" data-bindattr-3="3" id="color-blue">Update Profile</button>
+    </label>
           <script id="metamorph-22-start" type="text/x-placeholder"></script>
           <script id="metamorph-22-end" type="text/x-placeholder"></script>
 <br>
@@ -67,33 +58,8 @@
 
 
 
-<section id="gitlist-sectionspace-user-edit-gitlist" class="pad-section">
-  <div class="container editusersgitlist" id="gitlist-container">
-   <div class="row">
-            </div>
-            <div class="col-xs-6">    
-       </div>     
-  </div>
-</section>
 
 
 
 
 
-<footer class="footer">
-      <div class="container">
-            <ul class="footer-links-list-copyright">
-                <li> 
-                  <%- partial ('../partials/gitlist-user-counter.ejs') %>  
-               </li>
-            </ul>
-        <ul class="footer-links-list">
-                  <%- partial ('../partials/gitlist-social-footer.ejs') %>  
-            <hr>
-        </ul>
-      </div>
-        <hr/>
-            <div class="inner-gitlist-copyright">
-                  <%- partial ('../partials/copyright.ejs') %>  
-            </div>
-    </footer>

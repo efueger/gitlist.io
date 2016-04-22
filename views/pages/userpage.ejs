@@ -1,115 +1,137 @@
 <%- partial ('../partials/topbar.ejs') %>
-<style>
-    .reply-comments{
-        width: 85%;
-        margin-left: 10%;
-    }
-    .reply-comments h1{
-        font-size: 18px;
-        color: #427FED;
-    }
-    .reply-comment{
-        margin: 20px 0 30px 5%;
-    }
-    .reply-comment h4{
-        font-size: 14px;
-        font-weight: bold;
-        margin: 0;
-    }
-</style>
+
 <input type="hidden" id="userid" value="<%- id%>" />
 <input type="hidden" id="useremail" value="<%- email%>" />
 
 <section id="gitlist-top-abstand"></section>
-<section id="gitlist-userpage-sectionspace" class="pad-section">
+    <section id="gitlist-userpage-sectionspace" class="pad-section">
     <div class="container small" id="gitlist-container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="gitlist-media " data-liststory="liststory_" id="">
-                    <div class="gitlist-center">
-                        <div class="gitlist-vote">
-                            <div class="gitlistvote_buttons ">
-                                <a>
-                                  <i class="fa fa-sort-asc"></i>
-                                  <% if(!post.votes) post.votes = 0%>
-                                  <em class="votes vote_count"><%- post.votes%></em>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="gitlist-image">
-                          <a class="" href="/<%- post.author.slug%>">
-                              <img id="user-image" alt="images-profile" src="<%- post.author.picture%>">
-                            </a>        
-                        </div>
-                        <div class="gitlistmedia-body">
-                            <h4 class="gitlistmedia-heading">
-                                <a class="git-title" href="" target="_blank"><%- post.title%></a>
-                                <a class="lang" data-toggle="tooltip" href="" title="" data-original-title="Language">en</a>
-                                <a class="gitdomain" href="">gitlist.io</a>
-                            </h4>
-                            <div class="sub-detail">
-                                <span class="timestamp"></span>by <span class="verify_badge" data-placement="bottom" data-toggle="tooltip" title="" data-original-title="Verified Traveler"><i class="icon-ok-sign"></i></span> 
-                                <a class="owner" href="/<%- post.author.slug%>"><%- post.author.username%></a>
-                                <span class="tags">
-                             
-                                </span> 
-                            </div>
-                        </div>
-                        <div class="right-options">
-                            <div class="buttons dropdown">
-                              <a class="comment-count loading" data-remote="true" href="">
-                                <i class="fa fa-comments"></i> <span><%- post.comments.length%></span>
-                              </a>
-                            </div>
-                        </div>
+         <div class="row">
+                <div class="col-sm-12">
+                    <div class="gitlist-media___product_page__2016" data-liststory="liststory_" id="">
+                        <div class="gitlist-center___product_page__2016">
+                        </div> 
                     </div>
                 </div>
-                <div class="row">
-                    <!-- The Git Image beginning here /* Introduction of the Git */ --> 
-                    <div class="col-md-8"></div>
-                    <div class="col-md-8" id="gitlist-comment-white">
-                        <div id="comments">
-                            <div class="comment-navigation clearfix">
-                                <div class="comment-prev-nav"></div>
-                                <div class="comment-next-nav"></div>
-                            </div>
-                        </div>
-                        <div id="respond" class="comment-respond">
-
-                            <% if(comments.length > 0) { %>
-                                <% for(var i = 0; i < comments.length; i++) { %>
-                                    <div id='<%- comments[i].id%>' class='comment [ panel panel-default ] panel-gitlist-plus'>
-                              
-                                        <div class='panel-heading'>
-                                            <a href='/<%- comments[i].author.slug%>'><img class='[ img-circle pull-left ]' src='<%- comments[i].author.picture%>' style='width:46px;height46px;    margin-right: 15px;'></a>
-                                            <h3><%- comments[i].author.username%></h3>
-                                            <h5><span>Shared publicly</span> - <span id='createAt'><%- comments[i].author.createdAt%></span> </h5>
-                                        </div>
-                                        <div class='panel-body'>
-                                            <p><%- comments[i].content%></p>
-                                        </div>
-                                        <div class='reply-comments'></div>
-                                        <% if(username != "") { %> 
-                                            <div class='panel-footer'>
-                                                <button type='button' class='[ btn btn-default ]'>+1</button>
-                                                <button type='button' class='[ btn btn-default ]'><i class="fa fa-comments"></i></button>
-                                                <div class='input-placeholder'>Add a comment...</div>
-                                            </div>
-                                            <div class='panel-gitlist-plus-comment'>
-                                                <img class='img-circle' src='<%- user.picture%>' style='width:46px;height46px;' alt='User Image'>
-                                                <input type='hidden' id='loggedUser' value='<%- user.username%>'>
-                                                <div class='panel-gitlist-plus-textarea'>
-                                                    <textarea class='reply_content' rows='4'></textarea>
-                                                    <button type='submit' class='reply_comment [ btn btn-success disabled ]' value='<%- user.username%>'>Post comment</button>
-                                                    <button type='reset' class='[ btn btn-default ]'>Cancel</button>
-                                                </div>
-                                                <div class='clearfix'></div>
-                                            </div>
-                                        <% } %>
+            <div class="row">
+            <div class="col-lg-9">
+                <div class="wrapper wrapper-content animated fadeInUp">
+                    <div class="ibox">
+                        <div class="ibox-content">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="m-b-md">
+                                       <!-- <a href="project_detail.html#" class="btn btn-white btn-xs pull-right">Edit project</a> -->
+                                        <h2>   <a class="git-title ___product_page__2016" href="" target="_blank"><%- post.title%></a></h2>
                                     </div>
-                                    <br>
+                                    <dl class="dl-horizontal">
+                                        <dt>Status:</dt> <dd><span class="label label-primary">Active</span></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <dl class="dl-horizontal">
+
+                                        <dt>Created by:</dt> <dd><a class="owner ___product_page__2016" href="/<%- post.author.slug%>"><%- post.author.username%></a>
+</dd>
+                                        <dt>Messages:</dt> <dd>      <a class="comment-count loading ___product_page__2016" data-remote="true" href="">
+                                <i class="fa fa-comments"></i> <span><%- post.comments.length%></span>
+                              </a></dd>
+                                        <dt>Git Link:</dt><dd><a href="<%- post.url%>" target="_blank" id="gitlink"> <i class="fa fa-external-link"></i>  <%- post.url%></a>
+ </dd>
+                                        <dt>Version:</dt> <dd>  v1.4.2 </dd>
+                                    </dl>
+                                </div>
+                                <div class="col-lg-7" id="cluster_info">
+                                    <dl class="dl-horizontal">
+
+                                        <dt>Last Updated:</dt> <dd>                                <span class="timestamp  ___product_page__2016"></span><span class="verify_badge" data-placement="bottom" data-toggle="tooltip" title="" data-original-title="Verified Traveler"><i class="icon-ok-sign"></i></span> 
+</dd>
+                                        <dt>Created:</dt> <dd>                                  <span class="timestamp  ___product_page__2016"></span><span class="verify_badge" data-placement="bottom" data-toggle="tooltip" title="" data-original-title="Verified Traveler"><i class="icon-ok-sign"></i></span> 
+</dd>
+                                        <dt>Participants:</dt>
+                                        <dd class="project-people">
+                                             <a class="" href="/<%- post.author.slug%>">
+                              <img id="user-image" alt="images-profile" src="<%- post.author.picture%>" class="img-circle">
+                            </a>     
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <dl class="dl-horizontal">
+                                        <dt>Completed:</dt>
+                                        <dd>
+                                            <div class="progress progress-striped active m-b-sm">
+                                                <div style="width: 60%;" class="progress-bar"></div>
+                                            </div>
+                                            <small>Project completed in <strong>60%</strong>. Remaining close the project, sign a contract and invoice.</small>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="row m-t-sm">
+                                <div class="col-lg-12">
+                                <div class="panel blank-panel">
+                                <div class="panel-heading">
+                                    <div class="panel-options">
+                                        <ul class="nav nav-tabs">
+                                            <li class="active"><a href="project_detail.html#tab-1" data-toggle="tab">Users messages</a></li>
+                                            <li class=""><a href="project_detail.html#tab-2" data-toggle="tab">Last activity</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                <div class="tab-content">
+                                <div class="tab-pane active" id="tab-1">
+                                   
+
+        <!-- The New Interface of the comment form V.1.0.2  --> 
+            <div class="feed-activity-list">                     
+            <div id="respond" class="comment-respond">
+                    <% if(comments.length > 0) { %>
+                        <% for(var i = 0; i < comments.length; i++) { %>
+                            <div id='<%- comments[i].id%>' class='comment [ panel panel-default ] panel-gitlist-plus'>
+                                <div class='gitlist-ur-profilepicture___2016'>
+                                    <a href='/<%- comments[i].author.slug%>' class="pull-left">
+                                        <img class='[ img-circle pull-left ] pull-left' src='<%- comments[i].author.picture%>' style='width:46px;height46px;    margin-right: 15px;'>
+                                    </a>
+                                   <strong id="gl-user-comment-name___2016" ><%- comments[i].author.username%></strong>   
+                                  <!-- <small class="pull-right text-navy">5h ago</small> --> 
+                                   <br>
+                                    <span>Shared publicly</span> - <span id='createAt'><%- comments[i].author.createdAt%></span>
+                                </div>
+                                <div class='panel-body feed-element media-body'>
+                                     <div class="well">                          
+                                          <%- comments[i].content%>
+                                    </div>
+                                </div>
+                                <!-- replay comments V.1.0.2  --> 
+                                <div class='reply-comments'></div>
+                                <% if(username != "") { %> 
+                                    <div class='panel-footer'>
+                                        <button type='button' class='[ btn btn-default ]'>+1</button>
+                                        <button type='button' class='[ btn btn-default ]'><i class="fa fa-comments"></i></button>
+                                        <div class='input-placeholder'>Add a comment...</div>
+                                    </div>
+                                    <div class='panel-gitlist-plus-comment'>
+                                        <img class='img-circle' src='<%- user.picture%>' style='width:46px;height46px;' alt='User Image'>
+                                        <input type='hidden' id='loggedUser' value='<%- user.username%>'>
+                                        <div class='panel-gitlist-plus-textarea'>
+                                            <textarea class='reply_content' rows='4'></textarea>
+                                            <button type='submit' class='reply_comment [ btn btn-success disabled ]' value='<%- user.username%>'>Post comment</button>
+                                            <button type='reset' class='[ btn btn-default ]'>Cancel</button>
+                                        </div>
+                                        <div class='clearfix'></div>
+                                    </div>
                                 <% } %>
-                            <% } %>   
+                            </div>
+                            <br>
+                        <% } %>
+                    <% } %>   
+
 
                             <div class="form-group">
                                 <% if(username != "") { %>   
@@ -134,12 +156,7 @@
                                 </p>
                             <% } %>                             
                         </div>
-                        <div class="alert alert-success" style="background:rgb(245, 245, 245);  border: 1px solid rgba(205, 205, 205, 0.952941);  color: #808080;">
-                            <a href="../g/login/" class="btn btn-xs btn-primary pull-right">Sign Up for Free</a>
-                            <strong>Info:</strong>  to join this conversation on <a href="../g/login/">Gitlist</a>.<br> Already have an account? Sign in to comment
-                        </div>
-
-                        <script type="text/javascript">
+                              <script type="text/javascript">
                             jQuery( function ( $ ) {
                                 var ak_js = $( '#ak_js' );
 
@@ -158,109 +175,99 @@
                                 $( '#commentform, #replyrow td:first' ).append( ak_js );
                             } );
                         </script>
+
                     </div>
-                    <div class="col-md-4" id="gitlist-sitebar" style="border-radius: 3px; border-right: 1px solid #e5e5e5; border-left: 1px solid #e5e5e5; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; margin-bottom: -1px;">
-                        <h3 id="git_title"><%- post.title%></h3>
-                        <p id="description"><%- post.description%></p>
+                </div>         <!-- END - The New Interface of the comment form --> 
 
 
 
 
-                        <ul id="hash_tags">
-                        </ul>
-                        <ul>
-                            <li><h3>Link to Git  </h3><a href="<%- post.url%>" target="_blank" id="gitlink"> <i class="fa fa-external-link"></i>  <%- post.url%></a></li><br><br><br> 
-                            <li>  <a class='twitter' data-remote='true' href='https://twitter.com/intent/tweet?text=http://gitlist.io/git/<%- post.slug %>' target='_blank'><i class='fa fa-twitter'></i> <span>tweet</span></a> </li><br><br> 
-                        </ul>
-
-                
+                                <div class="tab-pane" id="tab-2">
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>Status</th>
+                                            <th>Title</th>
+                                            <th>Start Time</th>
+                                            <th>End Time</th>
+                                            <th>Comments</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <span class="label label-primary"><i class="fa fa-check"></i> Sent</span>
+                                            </td>
+                                            <td>
+                                                Contrary to popular
+                                            </td>
+                                            <td>
+                                                12.07.2014 10:10:1
+                                            </td>
+                                            <td>
+                                                14.07.2014 10:16:36
+                                            </td>
+                                            <td>
+                                                <p class="small">
+                                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="wrapper wrapper-content project-manager">
+                        <h4 id="git_title"><%- post.title%></h4>
+                    <p class="small">
+                    <p id="description"><%- post.description%></p>
+                    </p>
+                    <p class="small font-bold">
+                        <span><i class="fa fa-circle text-warning"></i> High priority</span>
+                    </p>
+                    <h5>Link to Git<a href="<%- post.url%>" target="_blank" id="gitlink"> <i class="fa fa-external-link"></i>  <%- post.url%></a></li></h5>
+                   <!-- Html version for #hashtags <ul class="tag-list" id="hash_tags" style="padding: 0">
+                        <li><a href=""><i class="fa fa-tag"></i> Gitlist</a></li>
+                        <li><a href=""><i class="fa fa-tag"></i> Lorem ipsum</a></li>
+                        
+                    </ul> --> 
+                    <ul id="hash_tags" class="tag-list" id="hash_tags" style="padding: 0">
+                        </ul>
+               <br>
+                    <ul class="list-unstyled project-files">
+                        <li><a href=""><i class="fa fa-file"></i> Project_document.docx</a></li>
+                       <!--  <li><a href=""><i class="fa fa-file-picture-o"></i> Logo_gitlist_company.jpg</a></li> --> 
+                        <li><a href=""><i class="fa fa-stack-exchange"></i> Email_from_Alex.mln</a></li>
+                        <li><a href=""><i class="fa fa-file"></i> Contract_20_11_2014.docx</a></li>
+                    </ul>
+                    <div class="text-center m-t-md">
+  <a class='twitter' data-remote='true' href='https://twitter.com/intent/tweet?text=http://gitlist.io/git/<%- post.slug %>' target='_blank'><i class='fa fa-twitter'></i> <span>tweet</span></a> 
+                         <a href="project_detail.html#" class="btn btn-xs btn-primary">Report contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <div class="alert alert-success" style="background:rgb(245, 245, 245);  border: 1px solid rgba(205, 205, 205, 0.952941);  color: #808080;">
+                            <a href="../g/login/" class="btn btn-xs btn-primary pull-right">Sign Up for Free</a>
+                            <strong>Info:</strong>  to join this conversation on <a href="../g/login/">Gitlist</a>.<br> Already have an account? Sign in to comment
+                        </div>
+                    </div> 
+                    </div>  
                 </div>
             </div>
         </div>
     </div>
 </section>
-<style>
-a.twitter {
-     background: #FFFFFF;
-    font-size: 20px;
-    font-size: 13px;
-    font-weight: bold;
-    color: #427fed;
-    padding: 6px 10px;
-    border-radius: 4px;
-    margin-left: 2px;
-    margin-right: 5px;
-    border: 2px solid #427fed;
-}
-@media (max-width: 700px) {
-a.twitter {
-    display:none;
-}
-}
-@media (max-width: 1200px) {
-.gitlist-media .gitlist-center .right-options .buttons {
-    text-align: right;
-}
-}
-</style>
 
-
-
-
-
-<section class="gitlist-introduction-space-1-1">
-<div class="container small">
-<div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 style="    font-family: inherit;
-    font-weight: 700;
-    line-height: 1;
-    color: rgb(39, 39, 39);
-    /* font-size: 3pc; */
-    /* line-height: 3pc; */
-    font-weight: 400;
-    margin-bottom: 2rem;">Find and List your Gits around the Globe.</h1>
-                <p class="lead" style="color: gray;
-    font-family: 'Open Sans',sans-serif;
-    font-size: 22px;
-    font-size: 1.8rem;
-    line-height: 0;
-    color: #86888b;
-    letter-spacing: -.035em;
-    font-weight: 400;"><i class="fa fa-rocket"></i> Start Your Free Gitlist Today!</p>
-                <ul class="list-unstyled">
-                </ul>
-            </div>
-        </div>
-        </div>
-    </section> 
-<section id="gitlist-sectionspace-rest-part-1">
-    <div class="container">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-    <p class="text-center">
-    <a href="../g/login" class="btn btn-success btn-outline-rounded green"> start using gitlist<i class="fa fa-paper-plane" style="margin-left:10px;"></i></a>
-        </p>              
-    </div>
-    </div>
-</section>
-
-
-<footer class="footer">
-    <div class="container">
-        <ul class="footer-links-list-copyright">
-            <li><%- partial ('../partials/gitlist-user-counter.ejs') %></li>
-        </ul>
-        <ul class="footer-links-list">
-            <%- partial ('../partials/gitlist-social-footer.ejs') %>
-            <hr>
-        </ul>
-    </div>
-    <hr/>
-    <div class="inner-gitlist-copyright">
-        <%- partial ('../partials/copyright.ejs') %>  
-    </div>
-</footer>
 
 <script type="text/javascript">
     var href = window.location.href;
@@ -390,11 +397,13 @@ a.twitter {
                                 userslug = res.slug;
                             }
                         });
-
+                        // the comment form section details like header, media-body   
+                        // etc, include here more feautures. Update Mi Apr 20 2016 06:45:04 GMT+0200 (CEST)
+                        // by Lucas Gatsas => http://www.lucasgatsas.ch
                         reply_comment += "<div class='reply-comment'>";
                         reply_comment += "<a href='/"+userslug+"'> <img class='[ img-circle pull-left ]' src='"+picture+"' style='width:46px;height46px;'></a>";
-                        reply_comment += "<h4>"+res[i].replyComments[j].author+"</h4>";
-                        reply_comment += "<p>"+res[i].replyComments[j].content+"</p>";
+                        reply_comment += "<h4 id='gitlistidh4'>"+res[i].replyComments[j].author+"</h4>";
+                        reply_comment += "<p id='gitlistid'>"+res[i].replyComments[j].content+"</p>";
                         reply_comment += "</div>";
                     }
                     $("#"+res[i].id+" .reply-comments").html(reply_comment);
@@ -419,3 +428,31 @@ a.twitter {
         });
     });
 </script>
+
+<script type="text/javascript">
+/// adding here the Js for the UserPage - comment form to adding and replay comment /// 
+
+    $(function () {
+   $('.panel-gitlist-plus > .panel-footer > .input-placeholder, .panel-gitlist-plus > .panel-gitlist-plus-comment > .panel-gitlist-plus-textarea > button[type="reset"]').on('click', function(event) {
+        var $panel = $(this).closest('.panel-gitlist-plus');
+            $comment = $panel.find('.panel-gitlist-plus-comment');
+            
+        $comment.find('.btn:first-child').addClass('disabled');
+        $comment.find('textarea').val('');
+        
+        $panel.toggleClass('panel-gitlist-plus-show-comment');
+        
+        if ($panel.hasClass('panel-gitlist-plus-show-comment')) {
+            $comment.find('textarea').focus();
+        }
+   });
+   $('.panel-gitlist-plus-comment > .panel-gitlist-plus-textarea > textarea').on('keyup', function(event) {
+        var $comment = $(this).closest('.panel-gitlist-plus-comment');
+        
+        $comment.find('button[type="submit"]').addClass('disabled');
+        if ($(this).val().length >= 1) {
+            $comment.find('button[type="submit"]').removeClass('disabled');
+        }
+   });
+});
+    </script>

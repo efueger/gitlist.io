@@ -1,207 +1,100 @@
 <script src="/js/notify.js"></script>
+
 <style>
-
-i#gitlist-logo-landing{
-    border: 1px solid rgba(204, 204, 204, 0.5);
-    padding: 15px;
-    border-radius: 90px;
-    margin-top: -2px;
-    font-size: 20px;
-    margin-right: -10px;
-}
-a#color-blue-376247536532 {
- color: rgb(255, 255, 255);
-    border-color: #fff;
-    letter-spacing: 0;
-    font-weight: 800;
-    position: relative;
+/* iCheck plugin Square skin, green
+----------------------------------- */
+.icheckbox_square-green,
+.iradio_square-green {
     display: inline-block;
-    padding: 9px 15px;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 20px;
-    white-space: nowrap;
+    *display: inline;
     vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url("green.png") no-repeat;
+    border: none;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0);
-    /* background-image: -webkit-linear-gradient(#fcfcfc,#eee); */
-    /* background-image: linear-gradient(#fcfcfc,#eee); */
-    border: 1px solid rgba(255, 255, 255, 0.61);
-    border-radius: 3px;
-    /* -webkit-user-select: none; */
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-appearance: none;
-}
-a#color-blue-376247536532:hover {
- color: #fff;
-    border-color: #fff;
-    letter-spacing: 0;
-    font-weight: 800;
-    position: relative;
-    display: inline-block;
-    padding: 9px 15px;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 20px;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    background-color: #427fed;
-    /* background-image: -webkit-linear-gradient(#fcfcfc,#eee); */
-    /* background-image: linear-gradient(#fcfcfc,#eee); */
-    border: 1px solid rgba(255, 255, 255, 0.61);
-    border-radius: 3px;
-    /* -webkit-user-select: none; */
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-appearance: none;
 }
 
-a.gitlist-links-at-landing-page {
-    margin-top: 3px;
-    font-weight: 600;
+.icheckbox_square-green {
+    background-position: 0 0;
+}
+.icheckbox_square-green.hover {
+    background-position: -24px 0;
+}
+.icheckbox_square-green.checked {
+    background-position: -48px 0;
+}
+.icheckbox_square-green.disabled {
+    background-position: -72px 0;
+    cursor: default;
+}
+.icheckbox_square-green.checked.disabled {
+    background-position: -96px 0;
+}
+
+.iradio_square-green {
+    background-position: -120px 0;
+}
+.iradio_square-green.hover {
+    background-position: -144px 0;
+}
+.iradio_square-green.checked {
+    background-position: -168px 0;
+}
+.iradio_square-green.disabled {
+    background-position: -192px 0;
+    cursor: default;
+}
+.iradio_square-green.checked.disabled {
+    background-position: -216px 0;
+}
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .icheckbox_square-green,
+    .iradio_square-green {
+        background-image: url("green@2x.png");
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
 }
 </style>
 
 
-<div class="navbar navbar-fixed-top header" id="gitlist-col-top" style="background:none; border:none;">
-  <div class="col-md-12">
-    <div class="navbar-header">
-           <a class="navbar-brand" href="/"> 
-<i class="fa fa-sort-amount-desc" id="gitlist-logo-landing" style="color: rgba(206, 206, 206, 0.9)"></i>
-           </a> 
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse1" >
-<i class="fa fa-bars"></i>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbar-collapse1 gitlist-col-top" style="background:none;">
-      <ul class="nav navbar-nav navbar-right">
-          <li><a href="/" class="gitlist-links-at-landing-page" style="color:white;"><i class="fa fa-arrow-circle-o-left"></i> Back to Gitlist</a></li>
-        <li><a href="/g/login"  id="color-blue-376247536532" class="btn btn-gitlist-sign-up 543456345idatlogin-gl-1">Log in</a></li>
-      </ul>
-    </div>  
-  </div> 
-</div>
-<div class="site-wrapper">
-  <div class="site-wrapper-inner-signup-gitlist">
-    <div class="cover-container">
-      <div class="inner cover">
-        <h2 class="form-signin-heading">Sign Up</h2>
-	      <div class="col-md-4 col-lg-12 center-block"></div>   
-        
-        <div id="signup-form" class="form-signin">
-     
-          <br>
-          <small class="text-muted">Already a Member? SignIn to <a href="/g/login" id="underline">Gitlist</a></small>
-          <br><br>
-          <input type="text" name="username" id="signupName" class="form-control login-input" placeholder="Username" required="" autofocus="">
-          <br>
-          <input type="email" name="email" id="signupEmail" class="form-control login-input" placeholder="E-mail">
-          <br>
-          <input name="password" type="password" id="signupPwd" class="form-control login-input" placeholder="Password">
-          <br>
-          <input name="passwordConfirmation" id="signupConfirmPwd" class="form-control login-input-pass" placeholder="Confirm Password" type="password">
-          <br>
-          <input id="fakeinput" type="text" name="fakeinput" value="" class="hidden">  
-          <label class="checkbox">
-            <input id="terms" name="terms" type="checkbox" value="1" checked> I agree with the terms of service.
-          </label>
-          <button class="signupBtn btn btn-lg btn-primary btn-block"  id="color-blue"><i class="fa fa-check-circle-o"></i> Create Account</button>
+    <div class="middle-box text-center loginscreen   animated fadeInDown">
+        <div>
+            <div>
+                <h1 class="logo-name">gl+</h1>
+            </div>
+            <h3>Register to gl+</h3>
+            <p>Create account to see it in action.</p>
+            <div class="m-t" role="form" action="login.html">
+                <input type="text" name="username" id="signupName" class="form-control login-input" placeholder="Username" required="" autofocus="">
+                <br>
+                <input type="email" name="email" id="signupEmail" class="form-control login-input" placeholder="E-mail">
+                <br>
+                <input name="password" type="password" id="signupPwd" class="form-control login-input" placeholder="Password">
+                <br>
+                <input name="passwordConfirmation" id="signupConfirmPwd" class="form-control login-input-pass" placeholder="Confirm Password" type="password">
+                <br>
+                <input id="fakeinput" type="text" name="fakeinput" value="" class="hidden">  
+                <br>
+                <label class="checkbox">
+                  <input id="terms" name="terms" type="checkbox" value="1" checked> I agree with the terms of service.
+                </label>
+                <button class="signupBtn btn btn-primary block full-width m-b">Register</button>
+                <p class="text-muted text-center"><small>Already have an account?</small></p>
+                 <a class="btn btn-sm btn-white btn-block" id="color-blue" href="/g/login"><i class="fa fa-check-circle-o"></i> Login In</a>
+            </div>
         </div>
-      </div>
-      <div class="inner">
-        <%- partial ('../partials/copyright.ejs') %>  
-      </div>
     </div>
-  </div>
-</div>
 
-   <style type="text/css">
-    .redborder {
-    border:2px solid #f96145;
-    border-radius:2px;
-}
 
-.hidden {
-    display: none;
-}
 
-.visible {
-    display: normal;
-}
 
-.colored {
-    background-color: #F0EEEE;
-}
 
-.row {
-    padding: 20px 0px;
-}
-
-.bigicon {
-    font-size: 97px;
-    color: #f96145;
-}
-
-.contcustom {
-    text-align: center;
-    width: 300px;
-    border-radius: 0.5rem;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 10px auto;
-    background-color: white;
-    padding: 20px;
-}
-
-input {
-    width: 100%;
-    margin-bottom: 17px;
-    padding: 15px;
-    background-color: #ECF4F4;
-    border-radius: 2px;
-    border: none;
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-weight: bold;
-    color: #ABABAB;
-}
-
-.btn {
-    border-radius: 2px;
-    padding: 10px;
-}
-
-.med {
-    font-size: 27px;
-    color: white;
-}
-
-.medhidden {
-    font-size: 27px;
-    color: #f96145;
-    padding: 10px;
-    width:100%;
-}
-
-.wide {
-    background-color: #8EB7E4;
-    width: 100%;
-    -webkit-border-top-right-radius: 0;
-    -webkit-border-bottom-right-radius: 0;
-    -moz-border-radius-topright: 0;
-    -moz-border-radius-bottomright: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-    </style>
 <script type="text/javascript">
  
 
@@ -307,92 +200,13 @@ if (navigator.userAgent.toLowerCase().indexOf("chrome") >= 0) {
 }
 </script>
 
-<style>
+    <script src="/js/plugins/iCheck/icheck.min.js"></script>
 
-
-input[type="text"].form-control, input[type="email"].form-control, input[type="password"].form-control {
-    height: auto;
-    border-radius: 4px;
-    color: white;
-}
-
-
-input[type="checkbox"] {
- -webkit-appearance: checkbox;
- #if !(defined(WTF_PLATFORM_IOS) && WTF_PLATFORM_IOS)
-box-sizing: border-box;
- #else
-     border-radius: 5px;
-     width: 16px;
-     height: 16px;
-     padding: 0px;
-     /* We want to be as close to background:transparent as possible without actually being transparent */
-     background-color: rgba(255, 255, 255, 0.01);
-
- #endif
-}
- 
-#if defined(WTF_PLATFORM_IOS) && WTF_PLATFORM_IOS
-input[type="radio"] {
-     -webkit-appearance: radio;
-     border-radius: 8px;
-     width: 16px;
-     height: 16px;
-     padding: 0px;
-     /* We want to be as close to background:transparent as possible without actually being transparent */
-    background-color: rgba(255, 255, 255, 0);
-    color: white;
- }
- 
- input:matches([type="checkbox"], [type="radio"]):checked {
-     background: rgba(0, 0, 0, 0.8);
-     border-color: rgba(255, 255, 255, 0.0);
-}
-
- input:matches([type="checkbox"], [type="radio"]):checked:disabled {
-     opacity: 0.4;
-     background: white;
- }
-input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
-    background-color: rgba(255, 255, 255, 0);
-    background-image: rgba(255, 255, 255, 0);
-    color: rgb(0, 0, 0);
-}
-input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill  {
-    background: rgba(255, 255, 255, 0);
-    background-image: rgba(255, 255, 255, 0);
-
-}
-/* Change the white to any color ;) */
-
-input#loginEmail {
-    background: none;
-}
-
-input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill  {
-  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset;
-  -webkit-autofill: rgba(255, 255, 255, 0) inset;
-}
-
-
-input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset;
-  -webkit-autofill: rgba(255, 255, 255, 0) inset;
-    background: rgba(255, 255, 255, 0);
-    background-image: rgba(255, 255, 255, 0);
-    background-color: rgba(255, 255, 255, 0);
-
-
-}
-
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-    transition: background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: #fff;
-
-}
-
-</style>
+    <script>
+        $(document).ready(function(){
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+    </script>

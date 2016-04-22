@@ -15,19 +15,21 @@ module.exports = {
     shortcuts: false,
     rest: false
   },
+
+  ///email signup per e-mail 
   
   signup: function(req, res){
     var params = req.params.all();
     User.create(params, function(err, user){
       if (err){ res.send(500, err); }else{
         if(sails.config.user.requireUserActivation){
-//          res.render('email/email.ejs', {user: user}, function(err, list){
+//res.render('email/email.ejs', {user: user}, function(err, list){
             var mailOptions = {
               to: user.email,
               from: sails.config.nodemailer.from,
               subject: 'New Account Created',
-//              html: list
-              html: "<h1>Welcome to Gitlist!</h1> Please go ahead and SignIn to Gitlist."
+//html: list - email attachment 
+              html: "<h1>Welcome to Gitlist!</h1> Please go ahead and SignIn to Gitlist. http://www.gitlist.io"
             };
             smtpTransport.sendMail(mailOptions, function(err) {
               if (!err) {
@@ -40,7 +42,7 @@ module.exports = {
                 });
               }
             });    
-//          });                         
+//});                         
         }else{
           res.send(200, user);
         }
@@ -76,7 +78,7 @@ module.exports = {
     });
 
   },
-
+///login local login user
   login: function(req, res) {
     passport.authenticate('local', function(err, user, info) {
         if ((err) || (!user)) {
@@ -95,20 +97,19 @@ module.exports = {
     })(req, res);
   
   },
-
+///logout function - 
   logout: function(req, res) {
     req.logout();
     res.redirect('/');
   },
-
+///twitter call back 
 twitter: function(req, res){
 
     passport.authenticate('twitter')(req,res);
 
   },
-
+///twitter call back api - coming soon 
   twitterCallback: function(req, res){
-  	
 		 passport.authenticate('twitter', { failureRedirect: '/g/login' }, function(err, user) {
       req.logIn(user, function(err) {
         if (err) {
@@ -123,13 +124,13 @@ twitter: function(req, res){
     })(req, res);
 
   },
-
+///github call back 
   github: function(req, res){
 
     passport.authenticate('github')(req,res);
 
   },
-
+//github call back api - coming sonn 
   githubCallback: function(req, res){    
     passport.authenticate('github', { failureRedirect: '/login' }, function(err, user) {
       req.logIn(user, function(err) {
@@ -145,7 +146,7 @@ twitter: function(req, res){
     })(req, res);
 
   },
-
+///forgot passwort for the e-mail - update 2016 
   forgot: function(req, res){
     var params = req.params.all();
     var mailOptions = {
@@ -166,7 +167,7 @@ twitter: function(req, res){
       }
     });
   },
-
+///passwort update 
   password: function(req, res){
     var params = req.params.all();
     User.update({
@@ -182,10 +183,20 @@ twitter: function(req, res){
       }
     });
   },
-
+///user counter 
   getUsers: function(req, res){
     User.count({}).exec(function countCB(err, found){
       return res.send(200, found);
     });
+  //},
+  ///gitlist counter 
+   //getPosts: function(req, res){
+    //post.count({}).exec(function countCB(err, found){
+      //return res.send(200, found);
+    //});
   }
-};
+};  
+
+
+
+
