@@ -17,7 +17,7 @@ Unactive Version 1.0.2 is coming in the next Days! :) !
 
 
 
- <img src="https://raw.githubusercontent.com/SpaceG/gitlist.io/15ff820e5ec4986534d98159223c12468e7866e8/assets/images/gl-1%20.png" class="center-block container-small"alt="" /> <br
+ <img src="https://raw.githubusercontent.com/SpaceG/gitlist.io/15ff820e5ec4986534d98159223c12468e7866e8/assets/images/gl-1212-1.png" class="center-block container-small"alt="" /> <br
 <br>
 <br>
 
