@@ -8474,19 +8474,13 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill  {
   -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset;
   -webkit-autofill: rgba(255, 255, 255, 0) inset;
 }
-
-
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset;
   -webkit-autofill: rgba(255, 255, 255, 0) inset;
     background: rgba(255, 255, 255, 0);
     background-image: rgba(255, 255, 255, 0);
     background-color: rgba(255, 255, 255, 0);
-
-
 }
-
-
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -8495,20 +8489,12 @@ input:-webkit-autofill:active {
     -webkit-text-fill-color: #fff;
 
 } 
-
 /* font-size comments form */
 strong#gl-user-comment-name___2016 {
     font-size: 12px;
 }
 
-
-
-
-
-
 /* Comment form for the Product Single Page : There were the git  is listed; */
-
-
     .reply-comments{
         width: 85%;
         margin-left: 10%;
@@ -8714,8 +8700,6 @@ margin-left: 30px;
 p#gitlistid {
 padding-left: 30px;
 }
-
-
 
 /* Landing Page - http://gitlist.io/g/launching */
 
