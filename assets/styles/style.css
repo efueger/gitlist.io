@@ -8433,8 +8433,6 @@ section#gitlist-sectionspace3-monthly {
 section#gitlist-sectionspace3-monthly {
      margin-left: -40px; 
 }
-
-
 section#gitlist-sectionspace3-weekly {
     margin-left: -40px;
 }
@@ -8442,9 +8440,6 @@ div#gitlist___front___2016 {
     margin-left: -30px;
 }
 }
-
-
-
 
 /* Login and Register details */ 
 
@@ -8747,7 +8742,7 @@ padding-left: 30px;
 
 
 
-/* Landing Page */
+/* Landing Page - http://gitlist.io/g/launching */
 
 #sep1 {
     background: url(../images/stgallen-finderlohn-1-bc1da659.jpg) no-repeat center top;
