@@ -16,6 +16,9 @@ of your team from commiting their local configuration changes on top of yours. *
 For more information, check out:
 http://sailsjs.org/#documentation */
 module.exports = {
+  // this is my setting :-)
+  appName: "start gitlist",
+
 
 // The port setting determines which TCP port your app will be deployed on
 // Ports are a transport-layer concept designed to allow many different

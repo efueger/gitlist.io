@@ -20,6 +20,10 @@
 
 // Ensure we're in the project directory, so relative paths work as expected
 // no matter where we actually lift from.
+
+
+
+
 process.chdir(__dirname);
 
 // Ensure a "sails" can be located:
@@ -53,7 +57,19 @@ process.chdir(__dirname);
     }
   }
 
-
   // Start server
   sails.lift(rc('sails'));
 })();
+
+
+// Start sails
+require('sails').lift(
+  {
+  }, 
+  function(err, sails) {
+     // pass it command line arguments
+     require('optimist').argv;
+     // option override config here
+     sails.config.appName = "start gitlist"
+   }
+);
