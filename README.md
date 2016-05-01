@@ -1,4 +1,7 @@
-# Gitlist App
+# Gitlist App 
+
+Active Version 1.0.1 
+Unactive Version 1.0.2 is coming in the next Days! :) ! 
 
 <section id="middle-place-01">
             <br>
@@ -14,7 +17,7 @@
 
 
 
- <img src="http://space.lucasgatsas.ch/images/Showcase-Devices-Presentation-lucas-gatsas-gitlist-app.png" class="center-block container-small"alt="" /> <br
+ <img src="https://raw.githubusercontent.com/SpaceG/gitlist.io/1367ef625b727482498b6dc6f1c494c8bc34a4b7/assets/images/gl-1212-1.png" class="center-block container-small"alt="" /> <br
 <br>
 <br>
 
@@ -23,11 +26,6 @@
 
 
 
-Today 13. October 2013 i have launched the gitlist Project. 
- Do you can Upload your Gits from z.B. Github etc. and List it to the Gitlist. 
-
-Do you can Update your Profile and Set your Profile Image and create a list with your Gits. 
-You can follow each other Developers from all over the World or Globe. 
 
 More to Follow soon. 
 Check out <a href="http://www.gitlist.io"> www.gitlist.io </a> <br> the Gitlist Landing Page <a href="http://www.gitlist.io/g/launching">www.gitlist.io/g/launching</a>
