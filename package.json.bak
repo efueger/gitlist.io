@@ -4,6 +4,9 @@
   "version": "1.0.2",
   "description": "Gitlist OS",
   "keywords": [],
+  "bin": {
+    "gitlist": "./cli.js"
+  },
   "dependencies": {
     "bcrypt": "~0.8.0",
     "ejs": "~0.8.4",
@@ -31,21 +34,22 @@
     "sails-disk": "~0.10.0",
     "sails-hook-autoreload": "^0.11.4",
     "sails-mongo": "^0.12.0",
-    "shortid": "~2.1.3"
+    "shortid": "~2.1.3",
+    "tilda": "^4.2.1"
   },
   "scripts": {
     "start": "node app.js",
     "debug": "node debug app.js"
   },
-    "bin": {
-    "gitlist": "app.js"
-    
-  },
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/SpaceG/gitlist.io"
+    "url": "git://github.com/SpaceG/gitlist.io.git"
   },
   "author": "lucasgatsas",
-  "license": "BSD 2-Clause"
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/SpaceG/gitlist.io/issues"
+  },
+  "homepage": "https://github.com/SpaceG/gitlist.io#readme"
 }
