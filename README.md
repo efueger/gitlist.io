@@ -2,6 +2,8 @@
 
 Active Version 1.0.1 
 Unactive Version 1.0.2 is coming in the next Days! :) ! 
+We current working on the Commandline <code>$sudo gitlist</code>
+
 
 <section id="middle-place-01">
             <br>
