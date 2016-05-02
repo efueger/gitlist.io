@@ -40,8 +40,12 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/SpaceG/gitlist.io"
+    "url": "git://github.com/SpaceG/gitlist.io.git"
   },
   "author": "lucasgatsas",
-  "license": "BSD 2-Clause"
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/SpaceG/gitlist.io/issues"
+  },
+  "homepage": "https://github.com/SpaceG/gitlist.io#readme"
 }
