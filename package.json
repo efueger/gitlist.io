@@ -1,8 +1,8 @@
 {
   "name": "gitlist",
   "private": true,
-  "version": "1.0.2",
-  "description": "Gitlist OS",
+  "version": "0.0.0",
+  "description": "a Sails application",
   "keywords": [],
   "dependencies": {
     "bcrypt": "~0.8.0",
@@ -40,8 +40,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/SpaceG/gitlist.io"
+    "url": "git://github.com/lucas/gitlist.git"
   },
   "author": "lucasgatsas",
-  "license": "BSD 2-Clause"
+  "license": ""
 }

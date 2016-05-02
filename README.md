@@ -1,7 +1,4 @@
-# Gitlist App 
-
-Active Version 1.0.1 
-Unactive Version 1.0.2 is coming in the next Days! :) ! 
+# Gitlist App
 
 <section id="middle-place-01">
             <br>
@@ -17,7 +14,7 @@ Unactive Version 1.0.2 is coming in the next Days! :) !
 
 
 
- <img src="https://raw.githubusercontent.com/SpaceG/gitlist.io/1367ef625b727482498b6dc6f1c494c8bc34a4b7/assets/images/gl-1212-1.png" class="center-block container-small"alt="" /> <br
+ <img src="http://space.lucasgatsas.ch/images/Showcase-Devices-Presentation-lucas-gatsas-gitlist-app.png" class="center-block container-small"alt="" /> <br
 <br>
 <br>
 
@@ -26,6 +23,11 @@ Unactive Version 1.0.2 is coming in the next Days! :) !
 
 
 
+Today 13. October 2013 i have launched the gitlist Project. 
+ Do you can Upload your Gits from z.B. Github etc. and List it to the Gitlist. 
+
+Do you can Update your Profile and Set your Profile Image and create a list with your Gits. 
+You can follow each other Developers from all over the World or Globe. 
 
 More to Follow soon. 
 Check out <a href="http://www.gitlist.io"> www.gitlist.io </a> <br> the Gitlist Landing Page <a href="http://www.gitlist.io/g/launching">www.gitlist.io/g/launching</a>
@@ -290,16 +292,8 @@ which simplifies and accelerates web application development.
 </div>
          </section> 
 
+The MIT License (MIT)
 
+Copyright (c) 2015 - 3000 Gitlist, Lucas Gatsas. Lucas Gatsas Software
 
-Copyright (c) 2014 - 2016 by Lucas Gatsas.
-http://www.lucasgatsas.ch
-The Regents of gitlist. All rights reserved.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-All advertising materials mentioning features or use of this software must display the following acknowledgement: “This product includes software developed by the gitlist community and its contributors.”
-Neither the name of the gitlist nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
