@@ -26,9 +26,9 @@ See the Node Module in Action !
 To Lift the Gitlist App, do you need some Pack Ages and External Apps.
 There are two ways to lift app :
 
-1.
 <code> $ sudo sails lift</code>
-2.
+
+
 <code>$ sudo gitlist </code>
 
 
