@@ -1,9 +1,6 @@
 # Gitlist App 
 
 
-
-Come back later again. to get the finish source. ;) ! 
-
 <section id="middle-place-01">
             <br>
 <br> 
