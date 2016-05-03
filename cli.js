@@ -31,7 +31,7 @@ parser.action({
 /* color cli commandsline npm install cli-color
 https://github.com/medikoo/cli-color
  */
-/* color cli commandsline npm install cli-color
+/* tilda.js from Ionica Bizau
 https://github.com/IonicaBizau/tilda
  */
 
@@ -39,7 +39,7 @@ var clc = require('cli-color');
 var msg = clc.xterm(39).bgXterm(236);
 console.log(msg('Welcome to Gitlist'));
 
-parser.on("gitlist", action => {
+parser.on("lift", action => {
 
         console.log("Start The GITLIST App");
         console.log("To see your app. visit:");
@@ -50,12 +50,9 @@ parser.on("gitlist", action => {
         console.log("©.2016 by Gitlist OS");
         console.log("press c to stop the app");
 
-});
 
 
-
-
-/* color cli commandsline npm install cli-color
+/* gitlist app
 https://github.com/SpaceG/gitlist.io
  */
 
@@ -70,6 +67,11 @@ http.createServer(function(request, response) {
 
   response.end();
 }).listen(80,"127.0.0.1");
+
+
+
+
+});
 
 
 
