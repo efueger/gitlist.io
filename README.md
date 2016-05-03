@@ -1,9 +1,6 @@
 # Gitlist App 
 
-Active Version 1.0.1 
-Unactive Version 1.0.2 is coming in the next Days! 
-NOTICE : IMPORTANT THINGS!
-We current working on the Commandline <code>$sudo gitlist</code>
+
 
 Come back later again. to get the finish source. ;) ! 
 
