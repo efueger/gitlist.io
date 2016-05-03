@@ -7,37 +7,44 @@
                 <h1 class="description-1"> IT'S NICE TO MEET YOU</h1>
                 
 
-<p class="description-2-small"> This is my New App and Beta Version Gitlist.io 0.0.1 
- </p> 
+<p class="description-2-small"> </p> 
 <br>      
-        
-
-
-
-
  <img src="https://raw.githubusercontent.com/SpaceG/gitlist.io/1367ef625b727482498b6dc6f1c494c8bc34a4b7/assets/images/gl-1212-1.png" class="center-block container-small"alt="" /> <br
 <br>
 <br>
 
 </section>
+See the Node Module in Action !
 
 
 
-
-
-More to Follow soon. 
-Check out <a href="http://www.gitlist.io"> www.gitlist.io </a> <br> the Gitlist Landing Page <a href="http://www.gitlist.io/g/launching">www.gitlist.io/g/launching</a>
+ <a href="http://www.gitlist.io"> www.gitlist.io </a> 
+ <br> the Gitlist Landing Page 
+ <a href="http://www.gitlist.io/g/launching">www.gitlist.io/g/launching</a>
 
 
 To Lift the Gitlist App, do you need some Pack Ages and External Apps.
+There are two ways to lift app :
 
-if you have intsall all packages : 
-Go A Head!
+
+1. $ sudo sails lift
+
+
+2. $ sudo gitlist 
+
+
+
+
+if you have intsall all packages :
+You have to go with the Commandline $ sudo sails lift 
 
 Download Source : 
 
 Open Termial with the Folder: 
 
+
+
+<h1>1. Step One to Install and Lift the App </h1>
 first remove the <code>node_module </code> folder, then install npm packages <code> $npm install </code>
 then after, $ sudo sails lift , do you will see, it give a error back, becuase do you haven't install MongoDB  packages..
 install Mongo DB : via commandline in the same dictory which you launch the full app : run <code> npm install sails-mongo --save </code> then it will intsall all MongoDB Packages : then run again <code> $ sudo sails lift </code> .
@@ -69,6 +76,29 @@ downlaod Sails.js
 <code> $ npm -g install sails </code> 
 
 <code> $ sails lift </code>
+
+
+
+
+
+
+<h1>2. Install the Module Package </h1>
+
+
+with the Commandline <code> $ npm install gitlist </code>
+
+go see your path @ on Mac Os X
+
+<code>/Users/yourname/node_modules/</code> 
+
+then open it in your Terminal prompt the Commandline
+
+<code> $ sudo gitlist </code> 
+
+
+
+
+
 
 
 <h2>Install on OSX </h2>
@@ -169,10 +199,6 @@ openssl version -a
 <h1> on a Ubuntu Linux Server on Digital Ocean </h1>
 
 
-
-
-
-
 <section id="middle-place-01">
             
 
@@ -264,15 +290,8 @@ which simplifies and accelerates web application development.
 <br> - <strong>Windwos</strong> <a href="https://en.wikipedia.org/wiki/Microsoft_Windows" target="_bkank"> Link to : Windwos</a> 
 <br> <br
 <br> 
-<br>
-<br>
 <br> <strong> Security (Open Source) </strong> 
-<br>
-<br>
 <br> - <strong> OpenSSL</strong>(Certificate - Security) <a href="https://en.wikipedia.org/wiki/OpenSSL" target="_bkank"> Link to : Open SSL</a> 
-<br> 
-<br> 
-<br> 
 <br> - Lindes of Code <strong>678'134 </strong>(Web App in Code of Lines) 
 <br> 
 <br> 
@@ -286,7 +305,7 @@ which simplifies and accelerates web application development.
 </div>
                 
 </div>
-         </section> 
+</section> 
 
 
 Copyright (c) 2014 - 3000 Gitlist, Lucas Gatsas. Lucas Gatsas Software
