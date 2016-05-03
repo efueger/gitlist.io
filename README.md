@@ -26,12 +26,10 @@ See the Node Module in Action !
 To Lift the Gitlist App, do you need some Pack Ages and External Apps.
 There are two ways to lift app :
 
-
-1. $ sudo sails lift
-
-
-2. $ sudo gitlist 
-
+1.
+<code> $ sudo sails lift</code>
+2.
+<code>$ sudo gitlist </code>
 
 
 
@@ -97,8 +95,12 @@ then open it in your Terminal prompt the Commandline
 
 
 
+<h1>Go See the Node Module Package </h1>
 
 
+See The Module at NPM : <a href="https://www.npmjs.com/package/gitlist"> Gitlist @ Npm.js </a>
+
+Go  <a href="https://www.npmjs.com/package/gitlist/tutorial"> Gitlist @ Npm.js </a>
 
 
 <h2>Install on OSX </h2>
