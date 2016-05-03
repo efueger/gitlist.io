@@ -7,7 +7,7 @@
                 <h1 class="description-1"> IT'S NICE TO MEET YOU</h1>
                 
 
-<p class="description-2-small"> This is my New Appand Beta Version Gitlist.io 0.0.1 
+<p class="description-2-small"> This is my New App and Beta Version Gitlist.io 0.0.1 
  </p> 
 <br>      
         
